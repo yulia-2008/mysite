@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-// import picture from './picture.jpg';
+import picture from './picture.jpg';
 
 class About extends Component {
     render() {
@@ -8,7 +8,7 @@ class About extends Component {
                 <div>
                     <h2>About me</h2>
                     <p>Get to know me</p>
-                    {/* <img id="picture" src={picture} alt="yuliya-pict"></img>  */}
+                    <img id="picture" src={picture} alt="yuliya-pict"></img> 
                 </div>
                 <div>
                     <p>Hello! My name is Yuliya and I am a Full Stack Software Engineer
