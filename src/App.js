@@ -6,7 +6,7 @@ import Blog from './Blog';
 import Resume from './Resume';
 import Projects from './Projects';
 import Contact from './Contact';
-import { HashRouter, Route, Switch} from 'react-router-dom';
+import { HashRouter, Route} from 'react-router-dom';
 
 
 class App extends React.Component {
@@ -16,7 +16,7 @@ class App extends React.Component {
   return (
     <div id="flex">
         <HashRouter hashType="noslash">
-         <Switch>           
+                 
               <NavBar/>
               <Route exact path = '/' component={About} />  
               <Route exact path = '/projects' component={Projects} />
@@ -24,7 +24,7 @@ class App extends React.Component {
               <Route exact path = '/resume' component={Resume} />
               <Route exact path = '/contact' component={Contact} />
                          
-        </Switch> 
+      
         </HashRouter>  
     
     </div>

@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import {NavLink} from 'react-router-dom';
+import {Link} from 'react-router-dom';
 import picture from './picture.jpg';
 
 class NavBar extends Component {
@@ -10,15 +10,15 @@ class NavBar extends Component {
             <h3>Fullstack Software Developer</h3>
                 <img id="image" src={picture} alt="yulia-picture"></img>  
                       
-                <NavLink  to='/'> About </NavLink> <br></br>                
+                <Link  to='/'> About </Link> <br></br>                
 
-                <NavLink  to='/projects'> Projects </NavLink> <br></br>
+                <Link  to='/projects'> Projects </Link> <br></br>
                   
-                <NavLink  to='/blog'> Blog </NavLink> <br></br>
+                <Link  to='/blog'> Blog </Link> <br></br>
                           
-                <NavLink  to='/resume'> Resume </NavLink> <br></br>
+                <Link  to='/resume'> Resume </Link> <br></br>
                    
-                <NavLink  to='/contact'> Contact </NavLink>              
+                <Link  to='/contact'> Contact </Link>              
              </div> 
         );
     }
