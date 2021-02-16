@@ -8,7 +8,7 @@ class NavBar extends Component {
             <div id="nav-bar">  
             <h1>Yuliya Yurkevich</h1>
             <h3>Fullstack Software Developer</h3>
-                <img id="image" src={picture} alt="yulia-picture"></img>  
+                <img id="image" src={picture} alt="yulia-picture"></img> <br></br>
                       
                 <Link  to='/'> About </Link> <br></br>                
 
