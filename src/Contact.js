@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import GitHUbLogo from './GitHubLogo.jpg';
-import LinedInLogo from './LinkedInLogo.jpg';
+import GitHubLogo from './GitHubLogo.pgn';
+import LinkedInLogo from './LinkedInLogo.pgn';
 
 class Contact extends Component {
     render() {
@@ -12,10 +12,10 @@ class Contact extends Component {
                 <h3>juliana.ny2008@gmail.com</h3> 
                 <h3>+1(347)3575454</h3>  
                 <a href="https://github.com/yulia-2008">
-                    <img src={GitHubLogo}></img>
+                    <img className="logo" src={GitHubLogo}></img>
                 </a>
                 <a href="https://www.linkedin.com/in/yuliya-yurkevich-b82a591b8/">
-                    <img src={LinkedInLogo}></img>
+                    <img  className="logo" src={LinkedInLogo}></img>
                 </a>
             </div>
         );
