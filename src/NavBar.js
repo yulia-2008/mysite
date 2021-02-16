@@ -12,7 +12,7 @@ class NavBar extends Component {
                       
                 <NavLink  to='/'> About </NavLink> <br></br>                
 
-                <NavLink  to='/projects'> Projects </NavLink> <br></br>
+                <NavLink  to='projects'> Projects </NavLink> <br></br>
                   
                 <NavLink  to='/blog'> Blog </NavLink> <br></br>
                           
