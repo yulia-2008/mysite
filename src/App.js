@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import NavBar from './NavBar';
+// import NavBar from './NavBar';
 import About from './About';
 import Blog from './Blog';
 import Resume from './Resume';
@@ -17,7 +17,7 @@ class App extends React.Component {
     <div id="flex">
         <HashRouter>
          <Switch>           
-              <NavBar/>
+              {/* <NavBar/> */}
               <Route exact path = '/projects' component={Projects} />
               <Route exact path = '/blog' component={Blog} />
               <Route exact path = '/resume' component={Resume} />
