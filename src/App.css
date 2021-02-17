@@ -1,7 +1,13 @@
 #flex {
-  
+  /* align-items: top; */
   display: flex;
-  /* justify-content: top; */
+  /* justify-content: center;  */
+  border: 1px solid black;
+}
+
+#flex-item {
+  padding-right: 30px;
+  border: 1px solid black;
 }
 
 a {
@@ -9,43 +15,45 @@ a {
   text-decoration: none;
 }
 
-#about {
-  border: 1px solid black;
-  text-align: center;
-  display: flex;
-  padding: 20px;
-}
 
 #nav-bar {
   padding: 20px;
-  width: 20%; 
-  margin: auto;
+  width: 20; 
   border: 1px solid black;
+  text-align: center;
 }
 
 #main-container{
-  padding: 20px;
+  padding-top: 20px;
+  padding-left: 100px;
+  padding-right: 100px;
   width: 80%;
-  margin: auto;
   border: 1px solid black;
+}
+
+.center {
+  border: 1px solid black;
+  text-align: center;
 }
 
 #blog-pic {
-  width: 100px;
-  height: 40px;
+  width: 250px;
+  height: 120px;
 }
 
 #grid-container { 
+  margin-top: 50px;
+  margin-left: 150px;
   display: grid; 
-  grid-template-columns: repeat(auto-fill, minmax(470px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(370px, 1fr));
+  border: 1px solid black;
 }
 
 #grid-item {
-  padding: 25px;
-  margin: 20px;
+  width: 250px;
   border: 1px solid black;
-  /* border-radius: 5px;
-  box-shadow: 5px 10px #cac9c9; */
+  margin-bottom: 40px;
+  
 }
 
 #image {
@@ -53,9 +61,22 @@ a {
   height: 60px;
 }
 
-.logo {
-  width: 30px;
-  height: 30px;
+#certificate {
+  width: 600px;
+  height: 400px;
+}
+
+.logo{
+  width: 60px;
+  height: 60px;
+}
+#padding{
+padding-left: 100px;
+padding-right: 100px;
+}
+
+#no-margin{
+  margin: 0px;
 }
 
 

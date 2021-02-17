@@ -1,17 +1,21 @@
 import React, { Component } from 'react';
-import Certificate from './Pictures/Certificate.pdf';
+import Certificate from './Pictures/Certificate.jpg';
 
 class Resume extends Component {
     render() {
         return (
             <div id="main-container">
                 <h1>Resume</h1>
-                <h3>Yuliya Yurkevich</h3>
-                <p>Fullstack Software Engineer</p>
-                <p>Brooklyn, NY 11223  | 347-357-5454  |  juliana.ny@gmail.com</p>
-                <a href="https://github.com/yulia-2008"> GitHub</a>
-                <a href="https://www.linkedin.com/in/yuliya-yurkevich-b82a591b8/"> LinkedIn</a>
-                <a href="https://juliana-ny2008.medium.com/" target="_blank"> Blog</a>    
+                <div className="center"> 
+                    <h3>Yuliya Yurkevich</h3>
+                    <p>Fullstack Software Engineer</p>
+                    <p>Brooklyn, NY 11223 </p>
+                    <p> 347-357-5454 </p> 
+                    <p> juliana.ny@gmail.com</p>
+                    <p> <a href="https://github.com/yulia-2008"> GitHub</a></p>
+                    <p> <a href="https://www.linkedin.com/in/yuliya-yurkevich-b82a591b8/"> LinkedIn</a></p>
+                    <p> <a href="https://juliana-ny2008.medium.com/" target="_blank"> Blog</a> </p>  
+                </div>
                 <p>Experienced in Ruby on Rails and JavaScript based programming. 
                     With a Bachelor’s degree in Law and over five years
                     of customer service and hospitality experience,
@@ -20,12 +24,12 @@ class Resume extends Component {
                     Results-oriented with a positive attitude. 
                     Looking forward to applying my software engineering skills
                     to help your business grow. </p>
-                <h3>Technical Skills</h3>
+                <h3 className="center">Technical Skills</h3>
     ​                <p>Ruby, Ruby on Rails, JavaScript, React.js, 
                         React Router, React Native, Material UI, 
                         Cloudinary Storage, HTML, CSS, SQlite, PostgreSQL, 
                         GitHub, API, Heroku Hosting.</p>
-                <h3>Technical Projects</h3>
+                <h3 className="center">Technical Projects</h3>
                     <p><a href="http://www.nycable.net/"> NYCABLE</a> |
                        <a href="https://www.youtube.com/watch?v=ST63TI827O8"> DEMO</a>
                     </p>
@@ -47,24 +51,24 @@ class Resume extends Component {
                      <p>• Ruby on Rails, PostgresSQL for Backend </p>
 
                     <p>PONDER |
-                        <a href="https://www.youtube.com/watch?v=1pHGREsQpdU">DEMO</a>
+                        <a href="https://www.youtube.com/watch?v=1pHGREsQpdU"> DEMO</a>
                     </p>
                      <p> Single page Park Aplication. 
                          Browse parks by choosing a US State, add likes, leave comments.</p> 
                     <p>• Built with Vanila JavaScript and Ruby on Rails</p>
                     
-                <h3>Education</h3>
-                    <p>Flatiron School </p>                                                                                                        
+                <h3 className="center">Education</h3>
+                    <b>Flatiron School </b>                                                                                                        
                     <p>   New York, NY </p>
                     <p>06/ 2020 - 10/2020</p>
                     <p>Full Stack Web Development, 
                        Ruby on Rails and JavaScript program</p>
 
-                    <p>International Humanitarian and Economic Institute </p>                                                
+                    <b>International Humanitarian and Economic Institute </b>                                                
                     <p>Minsk, Belarus </p>
                      <p>09/2002 - 06/ 2007</p>
                     <p>Bachelor's Degree, Jurisprudence </p>  
-                    <img className="logo" src={Certificate}></img>
+                    <img id="certificate" src={Certificate}></img>
 
             </div>
         );
