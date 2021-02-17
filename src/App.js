@@ -14,16 +14,16 @@ class App extends React.Component {
 
  render() {
   return (
-    <div id="flex">
+    <div>
         <HashRouter hashType="noslash">
-                 
+            <div id="flex">
               <NavBar/>
               <Route exact path = '/' component={About} />  
               <Route exact path = '/projects' component={Projects} />
               <Route exact path = '/blog' component={Blog} />
               <Route exact path = '/resume' component={Resume} />
               <Route exact path = '/contact' component={Contact} />
-                         
+            </div>                 
       
         </HashRouter>  
     
