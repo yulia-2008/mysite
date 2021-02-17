@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import {Link} from 'react-router-dom';
-import picture from './picture.jpg';
+import Yuliya from './Pictures/Yuliya.jpg';
 
 class NavBar extends Component {
     render() {
@@ -8,7 +8,7 @@ class NavBar extends Component {
             <div id="nav-bar">  
             <h1>Yuliya Yurkevich</h1>
             <h3>Fullstack Software Developer</h3>
-                <img id="image" src={picture} alt="yulia-picture"></img> <br></br>
+                <img id="image" src={Yuliya} alt="yulia-picture"></img> <br></br>
                       
                 <Link  to='/'> About </Link> <br></br>                
 

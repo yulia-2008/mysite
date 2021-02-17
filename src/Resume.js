@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Certificate from './picture.pdf';
+import Certificate from './Pictures/Certificate.pdf';
 
 class Resume extends Component {
     render() {

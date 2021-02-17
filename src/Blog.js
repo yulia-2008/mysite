@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Rails from './Rails.jpeg';
+import Rails from './Pictures/Rails.jpeg';
 
 class Blog extends Component {
     render() {
