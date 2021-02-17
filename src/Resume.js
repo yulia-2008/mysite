@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Certificate from './picture.pdf';
 
 class Resume extends Component {
     render() {
@@ -20,11 +21,50 @@ class Resume extends Component {
                     Looking forward to applying my software engineering skills
                     to help your business grow. </p>
                 <h3>Technical Skills</h3>
-​                <p>Ruby, Ruby on Rails, JavaScript, React.js, 
-                    React Router, React Native, Material UI, 
-                    Cloudinary Storage, HTML, CSS, SQlite, PostgreSQL, 
-                    GitHub, API, Heroku Hosting.</p>
+    ​                <p>Ruby, Ruby on Rails, JavaScript, React.js, 
+                        React Router, React Native, Material UI, 
+                        Cloudinary Storage, HTML, CSS, SQlite, PostgreSQL, 
+                        GitHub, API, Heroku Hosting.</p>
+                <h3>Technical Projects</h3>
+                    <p><a href="http://www.nycable.net/"> NYCABLE</a> |
+                       <a href="https://www.youtube.com/watch?v=ST63TI827O8"> DEMO</a>
+                    </p>
+                    <p>An Info-Portal about all internet & TV providers in NYC, 
+                        including payment plans, latest deals and more.</p>
+                    <p>•  Built with React.js, Ruby on Rails, PostgreSQL</p>
+                    <p>• Technologies used: Nested React Routes, 
+                        Cloudinary Storage, Material UI, 
+                        Browser Local Storage, JWT, Serializer, CSS</p>
+                    <p>• Hosted on Heroku, Google DNS</p>   
 
+                    <p> MY KITHEN | 
+                        <a href="https://www.youtube.com/watch?v=1pHGREsQpdU"> DEMO</a>
+                    </p> 
+                    <p>Recipes App. Users can add recipes, 
+                        select and search ingredients.</p>
+                     <p>• Used Spoonacular open data source API for recipe content </p> 
+                     <p>• React.js and React Router for Frontend</p>  
+                     <p>• Ruby on Rails, PostgresSQL for Backend </p>
+
+                    <p>PONDER |
+                        <a href="https://www.youtube.com/watch?v=1pHGREsQpdU">DEMO</a>
+                    </p>
+                     <p> Single page Park Aplication. 
+                         Browse parks by choosing a US State, add likes, leave comments.</p> 
+                    <p>• Built with Vanila JavaScript and Ruby on Rails</p>
+                    
+                <h3>Education</h3>
+                    <p>Flatiron School </p>                                                                                                        
+                    <p>   New York, NY </p>
+                    <p>06/ 2020 - 10/2020</p>
+                    <p>Full Stack Web Development, 
+                       Ruby on Rails and JavaScript program</p>
+
+                    <p>International Humanitarian and Economic Institute </p>                                                
+                    <p>Minsk, Belarus </p>
+                     <p>09/2002 - 06/ 2007</p>
+                    <p>Bachelor's Degree, Jurisprudence </p>  
+                    <img className="logo" src={Certificate}></img>
 
             </div>
         );
