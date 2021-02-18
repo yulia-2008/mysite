@@ -2,17 +2,18 @@ h1, p {
   margin: 0px;
 }
 
-hr {
-  
+hr { 
   margin-top: 30px;
   margin-bottom: 30px;
 }
 
-
- #medium {
+#medium {
    font-size: 20px;
-   display: block;
  }
+
+.white {
+  color: white;
+}
 
 #flex-resume {
   display: flex;
@@ -23,10 +24,10 @@ hr {
 }
 
 #flex {
-  /* align-items: top; */
   display: flex;
-  /* justify-content: center;  */
-  border: 4px solid rgb(223, 42, 42);
+  height: 100%;
+  margin: 0;
+  /* border: 4px solid rgb(223, 42, 42); */
 }
 
 @media only screen and (max-width: 600px) {
@@ -38,16 +39,14 @@ hr {
 }
 
 #flex-tech-stack {
-  /* align-items: top; */
   display: flex;
-  /* justify-content: center;  */
-  border: 4px solid rgb(223, 42, 42);
+  /* border: 4px solid rgb(223, 42, 42); */
 }
 
 #flex-item {
   padding-right: 30px;
   padding-bottom: 30px;
-  border: 4px solid rgb(22, 238, 105);
+  /* border: 4px solid rgb(22, 238, 105); */
 }
 
 
@@ -68,15 +67,15 @@ hr {
   width: 50%;
   padding-left: 40px;
   padding-right: 100px;
-  border: 4px solid rgb(223, 42, 42);
-  }
+  /* border: 4px solid rgb(223, 42, 42); */
+}
 
   @media only screen and (max-width: 600px) {
     #text-container{
       width: 100%;
       padding-left: 0px;
       padding-right: 0px;
-      border: 4px solid rgb(223, 42, 42);
+      /* border: 4px solid rgb(223, 42, 42); */
       }
   }
 
@@ -87,16 +86,9 @@ hr {
   height: auto;
 }
 
-@media only screen and (max-width: 600px) {
-  /* #picture {
-    width: 900px; 
-    max-width: 100%;
-    height: auto;
-  } */
-}
 
 a {
-  color: #3612b8;
+  color: white;
   text-decoration: none;
 }
 
@@ -104,22 +96,22 @@ a {
 #nav-bar {
   padding: 20px;
   width: 20%; 
-  border: 1px solid black;
+  min-height: 100%;
+  /* border: 1px solid black; */
   text-align: center;
+  background-color:rgb(71, 67, 67)
 }
 
 @media only screen and (max-width: 600px) {
   #nav-bar {
     display: flex;
     position: sticky;
+    top: 0;
     align-items: center;
     text-align: center;
     justify-content: space-around;
-    /* padding: 20px; */
-    /* margin-left: 20px;
-    margin-right: 20px; */
     width: 100%;
-    border: 1px solid black; 
+    /* border: 1px solid black;  */
   }
 }
 
@@ -132,7 +124,7 @@ a {
   padding-bottom: 100px;
   padding-right: 100px;
   width: 80%;
-  border: 1px solid black;
+  /* border: 1px solid black; */
 }
 
 @media only screen and (max-width: 600px) {
@@ -142,13 +134,13 @@ a {
     padding-right: 10px;
     width: 90%;
     margin: auto;
-    border: 1px solid rgb(146, 29, 29);
+    /* border: 1px solid rgb(146, 29, 29); */
   }
 }
 
 #header { 
   padding-bottom: 20px;;
-  border: 2px solid rgb(0, 0, 0);
+  /* border: 2px solid rgb(0, 0, 0); */
 }
 
 .center {
@@ -167,17 +159,14 @@ a {
   width: 70%;
   margin: auto;
   grid-gap: 20px; 
-  border: 1px solid black;
+  /* border: 1px solid black; */
   align-items: center; 
   
 }
 
 #grid-item {
-  /* display: flex;
-        align-items: center;
-        justify-content: center; */
   width: 250px;
-  border: 1px solid black;
+  /* border: 1px solid black; */
   margin-bottom: 40px;
   
 }
@@ -190,6 +179,14 @@ a {
   padding: 5px;
   width: 150px;
 }
+@media only screen and (max-width: 600px) {
+  #avatar { 
+    width: 60px;
+    padding: 3px;
+  }
+}
+
+
 
 
 #certificate {
@@ -220,4 +217,64 @@ a {
 
 #large {
   font-size: 30px;
+}
+
+.dropbtn {
+  display: none;
+}
+
+.dropdown-content a:hover {
+  background-color: #6b6d6b;
+}
+
+.dropdown-content {
+  font-size: 20px;
+}
+
+
+@media only screen and (max-width: 600px) {
+.dropbtn {
+  display: block;
+  background-color: #6b6d6b;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  color: white;
+  padding: 15px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+  background-color: #3a3f3b;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #6b6d6b; 
+  min-width: 100px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color:white;
+  padding: 5px 10px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: rgb(71, 67, 67)
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: rgb(71, 67, 67);
+}
 }

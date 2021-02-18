@@ -14,7 +14,7 @@ class App extends React.Component {
 
  render() {
   return (
-    <div>
+    <>
         <HashRouter hashType="noslash">
             <div id="flex">
               <NavBar/>
@@ -23,11 +23,9 @@ class App extends React.Component {
               <Route exact path = '/blog' component={Blog} />
               <Route exact path = '/resume' component={Resume} />
               <Route exact path = '/contact' component={Contact} />
-            </div>                 
-      
-        </HashRouter>  
-    
-    </div>
+            </div>                      
+        </HashRouter>     
+    </>
   );
  }
 }
