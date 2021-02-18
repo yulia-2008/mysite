@@ -6,11 +6,10 @@ class NavBar extends Component {
     render() {
         return (          
                 <div id="nav-bar"> 
-                    <div> 
-                        <h1 className="white">Yuliya Yurkevich</h1>
-                        <p id="medium" className="white">Fullstack Software Engineer</p>
-                        
+                    <div>
                         <br></br>
+                        <p id="large" className="white">Yuliya Yurkevich</p>
+                        <p id="small" className="white">Fullstack Software Engineer</p>              
                     </div> 
                     <img id="avatar" src={Yuliya} alt="yulia-picture"></img> 
                     

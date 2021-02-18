@@ -92,7 +92,7 @@ hr {
 }
 
 #nav-bar {
-  padding: 0x;
+  padding: 0px;
   width: 20%; 
   min-height: 100%;
   /* border: 1px solid black; */
@@ -107,7 +107,7 @@ hr {
     top: 0;
     align-items: center;
     text-align: center;
-    justify-content: space-around;
+    /* justify-content: space-around; */
     width: 100%;
     /* border: 1px solid black;  */
   }
@@ -167,8 +167,7 @@ hr {
 }
 
 #avatar {
-  margin-top: 20px;
-  margin-bottom: 20px;
+  margin: 15px;
   border: 1px solid #ddd;
   border-radius: 4px;
   padding: 5px;
@@ -224,6 +223,26 @@ hr {
 
 #large {
   font-size: 30px;
+}
+
+@media only screen and (max-width: 600px) {
+  #large {
+    font-size: 15px;
+  }
+  #small {
+    font-size: 5px;
+  }
+
+}
+
+#small {
+  font-size: 15px;
+}
+
+@media only screen and (max-width: 600px) {
+  #small {
+    font-size: 8px;
+  }
 }
 
 .dropbtn {
