@@ -33,7 +33,7 @@ hr {
 @media only screen and (max-width: 600px) {
   #flex {
     display: block;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     align-items: center;
   }
 }
@@ -49,17 +49,15 @@ hr {
   /* border: 4px solid rgb(22, 238, 105); */
 }
 
-
-
 #picture-container{
   width: 50%;
-  border: 4px solid rgb(223, 42, 42);
+  /* border: 4px solid rgb(223, 42, 42); */
 }
 
 @media only screen and (max-width: 600px) {
   #picture-container{
     width: 100%;
-    border: 4px solid rgb(223, 42, 42);
+    /* border: 4px solid rgb(223, 42, 42); */
   }
 }
 
@@ -86,12 +84,10 @@ hr {
   height: auto;
 }
 
-
 a {
   color: white;
   text-decoration: none;
 }
-
 
 #nav-bar {
   padding: 20px;
@@ -114,8 +110,6 @@ a {
     /* border: 1px solid black;  */
   }
 }
-
-
 
 #main-container{
 /* 80% - main, 20 % - navBar */
@@ -144,7 +138,7 @@ a {
 }
 
 .center {
-  border: 1px solid black;
+  /* border: 1px solid black; */
   text-align: center;
 }
 
@@ -167,8 +161,7 @@ a {
 #grid-item {
   width: 250px;
   /* border: 1px solid black; */
-  margin-bottom: 40px;
-  
+  margin-bottom: 40px; 
 }
 
 #avatar {
@@ -186,9 +179,6 @@ a {
   }
 }
 
-
-
-
 #certificate {
   width: 600px;
   height: 400px;
@@ -199,7 +189,6 @@ a {
   height: 60px;
 }
 
-
 #no-margin{
   margin: 0px;
 }
@@ -207,7 +196,7 @@ a {
 #width-70 {
   width: 70%;
   margin: auto;
-  border: 1px solid #ddd;
+  /* border: 1px solid #ddd; */
 }
 
 #left-padding {
