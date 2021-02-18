@@ -64,36 +64,36 @@ class Resume extends Component {
                         </b>
                         <p>An Info-Portal about all internet & TV providers in NYC, 
                             including payment plans, latest deals and more.</p>
-                        <div id="left-padding">
+                        <div>
                             <p>•  Built with React.js, Ruby on Rails, PostgreSQL</p>
                             <p>• Technologies used: Nested React Routes, 
                                     Cloudinary Storage, Material UI, 
                                     Browser Local Storage, JWT, Serializer, CSS</p>
                             <p>• Hosted on Heroku, Google DNS</p>   
                         </div>
-                        
+                        <br></br>
                         <b> MY KITHEN | 
                             <a href="https://www.youtube.com/watch?v=1pHGREsQpdU"> DEMO</a>
                         </b> 
                         <p>Recipes App. Users can add recipes, 
                             select and search ingredients.</p>
-                        <div id="left-padding">
+                        <div>
                             <p>• Used Spoonacular open data source API for recipe content </p> 
                             <p>• React.js and React Router for Frontend</p>  
                             <p>• Ruby on Rails, PostgresSQL for Backend </p>
                         </div>
-                        
+                        <br></br>
                         <b>PONDER |
                             <a href="https://www.youtube.com/watch?v=1pHGREsQpdU"> DEMO</a>
                         </b>
                         <p> Single page Park Aplication. 
                             Browse parks by choosing a US State, add likes, leave comments.</p> 
-                        <p id="left-padding">• Built with Vanila JavaScript, Ruby on Rails and PostgreSQL</p>
+                        <p>• Built with Vanila JavaScript, Ruby on Rails and PostgreSQL</p>
 
                     <h3 className="center">Work experience</h3>   
                         <b>Nomadic Hospitality LLC (Za-Ya Ramen Restaurant)</b> 
                         <p>Cook, Waiter (09/2018 - 03/2020)</p>
-                        <div id="left-padding">           
+                        <div>           
                             <p>• Ensured exceptional quality food preparation by cooking
                                 and serving all menu items and specials</p>
                             <p>• Maintained store inventory levels by following company procedures,
@@ -101,9 +101,10 @@ class Resume extends Component {
                             <p>• Performed daily tasks including opening/closing restaurant, 
                                 customer service, ensuring accurate orders</p>
                         </div>
+                        <br></br>
                         <b>Juice Generation Inc</b> 
                         <p>Sales team member  (10/2011 - 07/2017)</p> 
-                        <div id="left-padding">
+                        <div>
                             <p>• Provided excellent customer service by engaging customers
                                 and accurately processing their orders</p>  
                             <p>• Operate point of service terminal and consult

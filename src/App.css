@@ -82,15 +82,17 @@ hr {
   width: 500px; 
   max-width: 100%;
   height: auto;
+  padding-bottom: 20px;
 }
 
-a {
+
+.dropdown-content a {
   color: white;
   text-decoration: none;
 }
 
 #nav-bar {
-  padding: 20px;
+  padding: 0x;
   width: 20%; 
   min-height: 100%;
   /* border: 1px solid black; */
@@ -115,10 +117,10 @@ a {
 /* 80% - main, 20 % - navBar */
   padding-top: 20px;
   padding-left: 100px;
-  padding-bottom: 100px;
+  padding-bottom: 80px;
   padding-right: 100px;
   width: 80%;
-  /* border: 1px solid black; */
+  border: 1px solid black;
 }
 
 @media only screen and (max-width: 600px) {
@@ -126,9 +128,9 @@ a {
     padding-top: 20px;
     padding-left: 10px;
     padding-right: 10px;
-    width: 90%;
+    width: 100%;
     margin: auto;
-    /* border: 1px solid rgb(146, 29, 29); */
+    border: 2px solid rgb(146, 29, 29); 
   }
 }
 
@@ -153,7 +155,7 @@ a {
   width: 70%;
   margin: auto;
   grid-gap: 20px; 
-  /* border: 1px solid black; */
+  border: 2px solid rgb(158, 192, 34); 
   align-items: center; 
   
 }
@@ -180,9 +182,17 @@ a {
 }
 
 #certificate {
-  width: 600px;
-  height: 400px;
+  width: 100%;
+  height: auto;
 }
+
+/* @media only screen and (max-width: 600px) {
+  #certificate {
+    width: 500px; 
+    max-width: 100%;
+    height: auto; 
+  }
+} */
 
 .logo{
   width: 60px;
@@ -196,10 +206,11 @@ a {
 #width-70 {
   width: 70%;
   margin: auto;
-  /* border: 1px solid #ddd; */
+  border: 1px solid rgb(167, 40, 135);
 }
 
 #left-padding {
+  /* do I need this? */
   padding-left: 20px;
   padding-bottom: 20px;
 }

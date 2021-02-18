@@ -23,6 +23,7 @@ class Projects extends Component {
                     <div id="flex">
                         <div id="flex-item">
                             <iframe  src="https://www.youtube.com/embed/ST63TI827O8/"></iframe>
+                            <br></br> <br></br>
                             <b id="medium">Features</b>
                             <p>• Creating an account (as a client or technician).</p>
                             <p>• Logging in/Logging out.</p>
@@ -66,15 +67,16 @@ class Projects extends Component {
                         <a href="https://github.com/yulia-2008/MyKitchen-backend">Backend</a>
                     </p>
                     <br></br>
-                    <p>Cooking Application that allows you to search
-                        for ingredients you have in the kitchen,
-                        and the app will find the recipes for you to cook.</p>
+                    <p>Cooking Application that allows you to search and celect
+                        ingredients and the app will
+                        find the recipes for you to cook.</p>
                     <p>App was built during Flatiron School
                         study in a collaboration with Roman Opalacz. </p>
                     <br></br>
                     <div id="flex">
                         <div id="flex-item">
                             <iframe  src="https://www.youtube.com/embed/uw5Jd1ter0g/"></iframe>
+                            <br></br> <br></br>
                             <b id="medium">Features</b>
                             <p>• Users can search and select ingredients.</p>
                             <p>• Find recipes with selected ingredients.</p>
@@ -105,6 +107,7 @@ class Projects extends Component {
                     <div id="flex">
                         <div id="flex-item">
                             <iframe  src="https://www.youtube.com/embed/1pHGREsQpdU/"></iframe>
+                            <br></br> <br></br>
                             <b id="medium">Features</b>
                             <p>• Leave/Delete comments.</p>
                             <p>• Add likes</p>

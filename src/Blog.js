@@ -1,5 +1,10 @@
 import React, { Component } from 'react';
 import Rails from './Pictures/Rails.jpeg';
+import Star from './Pictures/Star.jpg';
+import Gitignore from './Pictures/Gitignore.jpg';
+import Heroku from './Pictures/Heroku.jpg';
+import User from './Pictures/User.jpeg';
+import PGAdmin from './Pictures/PGAdmin.jpg'
 
 class Blog extends Component {
     render() {
@@ -23,7 +28,7 @@ class Blog extends Component {
                             Rails. Polymorphic Association.
                     </a>
                     <br></br> <br></br>
-                    <p>Going deep into 'Active Record associations, 
+                    <p>Going deep into Active Record associations, 
                             exploring relationship where a model can 
                             belong to one OR another model. </p><br></br>
                     <p>Oct 13, 2020</p>            
@@ -32,7 +37,7 @@ class Blog extends Component {
 
                 <div id="grid-item">
                     <a href="https://juliana-ny2008.medium.com/rails-polymorphic-associations-30436714c774" target="_blank">
-                        <img id="blog-pic" src={Rails}></img>   
+                        <img id="blog-pic" src={User}></img>   
                     </a>                        
                     <a href="https://juliana-ny2008.medium.com/rails-polymorphic-associations-30436714c774" target="_blank">
                             Uploading User Picture.
@@ -47,7 +52,7 @@ class Blog extends Component {
                     
                 <div id="grid-item">
                     <a href="https://juliana-ny2008.medium.com/rails-polymorphic-associations-30436714c774" target="_blank">
-                        <img id="blog-pic" src={Rails}></img>   
+                        <img id="blog-pic" src={Star}></img>   
                     </a> 
                     <a href="https://juliana-ny2008.medium.com/rails-polymorphic-associations-30436714c774" target="_blank">
                             Integrating 5-Star Rating into React App.
@@ -60,7 +65,7 @@ class Blog extends Component {
 
                 <div id="grid-item">
                     <a href="https://juliana-ny2008.medium.com/rails-polymorphic-associations-30436714c774" target="_blank">
-                        <img id="blog-pic" src={Rails}></img>   
+                        <img id="blog-pic" src={Heroku}></img>   
                     </a>                      
                     <a href="https://juliana-ny2008.medium.com/rails-polymorphic-associations-30436714c774" target="_blank">
                             Deploying Rails and React App to Heroku.
@@ -73,7 +78,7 @@ class Blog extends Component {
 
                 <div id="grid-item">
                     <a href="https://juliana-ny2008.medium.com/rails-polymorphic-associations-30436714c774" target="_blank">
-                        <img id="blog-pic" src={Rails}></img>   
+                        <img id="blog-pic" src={PGAdmin}></img>   
                     </a>                        
                     <a href="https://juliana-ny2008.medium.com/rails-polymorphic-associations-30436714c774" target="_blank">
                             Heroku $ pgAdmin
@@ -87,7 +92,7 @@ class Blog extends Component {
                     
                 <div id="grid-item">
                     <a href="https://juliana-ny2008.medium.com/rails-polymorphic-associations-30436714c774" target="_blank">
-                        <img id="blog-pic" src={Rails}></img>   
+                        <img id="blog-pic" src={Gitignore}></img>   
                     </a>
                     <a href="https://juliana-ny2008.medium.com/rails-polymorphic-associations-30436714c774" target="_blank">
                             How to remove credentials from GitHub.

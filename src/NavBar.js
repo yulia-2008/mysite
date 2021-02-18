@@ -15,7 +15,7 @@ class NavBar extends Component {
                     <img id="avatar" src={Yuliya} alt="yulia-picture"></img> 
                     
                     <div class="dropdown">
-                        <button class="dropbtn"> Dropdown</button>
+                        <button class="dropbtn"> Menu</button>
                         <div class="dropdown-content">
                         <p><Link  to='/'> About </Link> </p>  <br></br>            
                         <p><Link  to='/projects'> Projects </Link> </p> <br></br>                
