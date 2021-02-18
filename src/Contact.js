@@ -8,7 +8,6 @@ class Contact extends Component {
             <div id="main-container">
             <div id="header">
                 <h1>Contact</h1>
-                {/* <p> I am open to a job, collaboration and startups.</p> */}
                 <p>Feel free to contact me anytime.</p>
             </div>   
             <div className="center">

@@ -20,7 +20,8 @@ class About extends Component {
                             A year ago I moved into a new career
                             that will always keep me learning.
                             In October 2020 I have graduated from Flatiron School as a Software Engineer.
-                    </p><br></br>
+                             I am open to a job, collaboration and startups.</p> 
+                    <br></br>
 
                     <h4>Tech Stack</h4>
                     <div id="flex-tech-stack">
