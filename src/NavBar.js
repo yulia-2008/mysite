@@ -15,7 +15,7 @@ class NavBar extends Component {
                     <img id="avatar" src={Yuliya} alt="yulia-picture"></img> 
                     
                     <div class="dropdown">
-                        <button class="dropbtn"> Menu</button>
+                        <button class="dropbtn" > Menu</button>
                         <div class="dropdown-content">
                         <p><Link  to='/'> About </Link> </p>  <br></br>            
                         <p><Link  to='/projects'> Projects </Link> </p> <br></br>                
@@ -24,18 +24,6 @@ class NavBar extends Component {
                         <p><Link  to='/contact'> Contact </Link> </p>
                         </div>
                     </div>
-                    
-                    
-                    
-                    
-                    
-                    {/* <div id="medium">         
-                        <p><Link  to='/'> About </Link> </p>               
-                        <p><Link  to='/projects'> Projects </Link> </p>                 
-                        <p><Link  to='/blog'> Blog </Link> </p>                      
-                        <p><Link  to='/resume'> Resume </Link> </p>                  
-                        <p><Link  to='/contact'> Contact </Link> </p>
-                    </div>  */}
                 </div> 
              
         );
