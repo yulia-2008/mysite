@@ -113,7 +113,10 @@ iframe {
   width: 500px; 
   max-width: 100%;
   height: auto;
-  padding-bottom: 20px;
+  padding: 4px;
+  margin: 3px;
+  border: 2px solid grey;
+  border-radius: 5px;;
 }
 
 
@@ -145,7 +148,7 @@ iframe {
     /* text-align: center; */
     /* justify-content: left;   */
     width: 100%;
-    /* border: 1px solid black;  */
+    border: none;
   }
 }
 
@@ -166,7 +169,7 @@ iframe {
     padding-right: 0px;
     width: 80%;
     margin: auto;
-    /* border: 2px solid rgb(146, 29, 29);  */
+    border: none;
   }  
 }
 
