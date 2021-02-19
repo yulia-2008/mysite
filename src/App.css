@@ -56,20 +56,20 @@ iframe {
 #flex-tech-stack {
   display: flex;
   justify-content: center;
-   border: 4px solid rgb(223, 42, 42); 
+  /* border: 4px solid rgb(223, 42, 42);  */
 }
 
 #flex-item {
   /* width: 33%; */
   padding-right: 25px;
   padding-bottom: 30px;
-  border: 1px solid rgb(22, 238, 105); 
+  /* border: 1px solid rgb(22, 238, 105);  */
 }
 
 @media only screen and (max-width: 600px) {
   #flex-item {
     padding-right: 0px;
-    border: 1px solid rgb(22, 238, 105); 
+    /* border: 1px solid rgb(22, 238, 105);  */
   }
 }
 
@@ -78,7 +78,7 @@ iframe {
   width: 33%; 
   padding-right: 15px;
   padding-bottom: 30px;
-  border: 1px solid rgb(22, 238, 105); 
+  /* border: 1px solid rgb(22, 238, 105);  */
 }
 
 #picture-container{
@@ -97,7 +97,7 @@ iframe {
   width: 50%;
   padding-left: 40px;
   padding-right: 0px;
-  border: 4px solid rgb(223, 42, 42); 
+  /* border: 4px solid rgb(223, 42, 42);  */
 }
 
   @media only screen and (max-width: 600px) {
@@ -129,7 +129,7 @@ iframe {
   /* padding: 0px; */
   width: 20%; 
   min-height: 100%;
-  border: 1px solid pink;
+  /* border: 1px solid pink; */
   text-align: center;
   background-color:rgb(71, 67, 67)
 }
@@ -155,7 +155,7 @@ iframe {
   padding-bottom: 80px;
   padding-right: 100px;
   width: 80%;
-  border: 1px solid black;
+  /* border: 1px solid black; */
 }
 
 @media only screen and (max-width: 600px) {
@@ -165,7 +165,7 @@ iframe {
     padding-right: 0px;
     width: 80%;
     margin: auto;
-    border: 2px solid rgb(146, 29, 29); 
+    /* border: 2px solid rgb(146, 29, 29);  */
   }  
 }
 
@@ -196,7 +196,7 @@ iframe {
   width: 70%;
   margin: auto;
   grid-gap: 20px; 
-  border: 2px solid rgb(158, 192, 34); 
+  /* border: 2px solid rgb(158, 192, 34);  */
   align-items: center;  
 }
 
@@ -205,7 +205,7 @@ iframe {
     display: block; 
     width: 100%;
     margin: auto;
-    border: 2px solid rgb(158, 192, 34); 
+    /* border: 2px solid rgb(158, 192, 34);  */
     align-items: center;  
   }
 }
@@ -256,13 +256,13 @@ iframe {
 #width {
   width: 90%;
   margin: auto;
-  border: 1px solid rgb(167, 40, 135);
+  /* border: 1px solid rgb(167, 40, 135); */
 }
 
 @media only screen and (max-width: 600px) {
   #width {
     width: 90%;
-    border: 1px solid rgb(167, 40, 135);
+    /* border: 1px solid rgb(167, 40, 135); */
   }
 }
 
