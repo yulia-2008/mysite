@@ -9,10 +9,9 @@ class Projects extends Component {
                 </div>  
 
                  <div id="width-70"> 
-                    <p id="large">NYCable</p>
+                    <b id="medium">NYCABLE</b>
                     <p id='medium'> <a href="http://www.nycable.net/"> www.nycable.net</a> </p>
-                    <p><b>GitHub</b> &nbsp;
-                        <a href="https://github.com/yulia-2008/nycable_frontend">Frontend</a> &nbsp;
+                    <p> GitHub: <a href="https://github.com/yulia-2008/nycable_frontend">Frontend</a> &nbsp;
                         <a href="https://github.com/yulia-2008/nycable_backend">Backend</a>
                     </p>
                     <br></br>
@@ -61,8 +60,8 @@ class Projects extends Component {
 
                     <hr></hr> 
 
-                    <p id="large">MyKitchen</p>
-                    <p><b>GitHub</b> &nbsp;
+                    <b id="medium">MY KITCHEN</b>
+                    <p>GitHub: &nbsp;
                         <a href="https://github.com/yulia-2008/my-kitchen-frontend">Frontend</a> &nbsp;
                         <a href="https://github.com/yulia-2008/MyKitchen-backend">Backend</a>
                     </p>
@@ -94,8 +93,8 @@ class Projects extends Component {
 
                     <hr></hr>
 
-                    <p id="large">Ponder</p>
-                    <p><b>GitHub</b> &nbsp;
+                    <b id="medium">PONDER</b>
+                    <p>GitHub: &nbsp;
                         <a href="https://github.com/yulia-2008/ponder_frontend">Frontend</a> &nbsp;
                         <a href="https://github.com/yulia-2008/ponder_backend">Backend</a>
                     </p>

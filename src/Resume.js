@@ -34,27 +34,27 @@ class Resume extends Component {
                     <h3 className="center">Technical Skills</h3>
                     <div id="flex-tech-stack">
                         <div id="flex-item">
-                            <p>• HTML</p>
-                            <p>• CSS</p>
-                            <p>• Ruby</p>
-                            <p>• API</p>
-                            <p>• JavaScript</p>
-                            
+                            <p>HTML</p> <hr/>
+                            <p>CSS</p><hr/>
+                            <p>Ruby</p><hr/>
+                            <p>API</p><hr/>
+                            <p>Ruby on Rails</p>
                         </div>
                         <div id="flex-item">
-                            <p>• React.js</p>
-                            <p>• React Router</p>
-                            <p>• Material UI</p>
-                            <p>• React Native</p>
-                            <p>• Ruby on Rails</p>
+                            <p>JavaScript</p><hr/>
+                            <p>React.js</p><hr/>
+                            <p>Material UI</p><hr/>
+                            <p>React Router</p><hr/>                     
+                            <p>React Native</p>
+                          
                         </div>
                         <div id="flex-item">
                             
-                            <p>• PostgreSQL</p>
-                            <p>• SQLite</p>
-                            <p>• Cloudinary Storage</p>
-                            <p>• Heroku</p>
-                            <p>• GitHub</p>
+                            <p>PostgreSQL</p><hr/>
+                            <p>SQLite</p><hr/>
+                            <p>Heroku</p><hr/>
+                            <p>GitHub</p><hr/>
+                            <p>Cloudinary Storage</p>
                         </div>
                     </div>
   

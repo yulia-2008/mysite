@@ -6,12 +6,12 @@ class NavBar extends Component {
     render() {
         return (          
                 <div id="nav-bar"> 
-                    <div>
-                        <br></br>
+                    <img id="avatar" src={Yuliya} alt="yulia-picture"></img> 
+                    <div id="border">
                         <p id="large" className="white">Yuliya Yurkevich</p>
                         <p id="small" className="white">Fullstack Software Engineer</p>              
                     </div> 
-                    <img id="avatar" src={Yuliya} alt="yulia-picture"></img> 
+                    <br></br> <br></br>
                     
                     <div class="dropdown">
                         <button class="dropbtn" > Menu</button>
