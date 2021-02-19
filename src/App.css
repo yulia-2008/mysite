@@ -68,7 +68,7 @@ iframe {
 @media only screen and (max-width: 600px) {
   #flex-item {
     padding-right: 15px;
-     /* border: 1px solid rgb(22, 238, 105);   */
+    /* border: 1px solid rgb(22, 238, 105);    */
   }
 }
 
@@ -94,7 +94,7 @@ iframe {
 
 #text-container{
   width: 50%;
-  padding-left: 40px;
+  padding-left: 70px;
   padding-right: 0px;
   /* border: 4px solid rgb(223, 42, 42);  */
 }
@@ -126,10 +126,8 @@ iframe {
 }
 
 #nav-bar {
-  padding-top: 100px;
-  padding-bottom: 100px; 
-  padding-left: 20px;
-  padding-right: 20px; 
+  /* top, right, bottom, left  */
+  padding: 100px 20px 100px 20px;
   width: 20%; 
   min-height: 100%;
   /* border-right: 3px dotted white; */
@@ -143,7 +141,7 @@ iframe {
     display: flex;
     position: sticky;
     top: 0;
-    padding: 0;
+    padding: 1px 1px 5px 1px;
     align-items: center;
     /* text-align: center; */
     /* justify-content: left;   */
@@ -154,19 +152,17 @@ iframe {
 
 #main-container{
 /* 80% - main, 20 % - navBar */
-  padding-top: 20px;
-  padding-left: 100px;
-  padding-bottom: 80px;
-  padding-right: 100px;
+  padding: 20px 100px 30px 100px;
   width: 80%;
   border-left: 4px dotted black; 
 }
 
 @media only screen and (max-width: 600px) {
   #main-container{
-    padding-top: 20px;
+    /* padding-top: 20px;
     padding-left: 0px;
-    padding-right: 0px;
+    padding-right: 0px; */
+    padding: 20px 0px 30px 0px;
     width: 80%;
     margin: auto;
     border: none;
@@ -190,7 +186,7 @@ iframe {
 
 @media only screen and (max-width: 600px) {
   #blog-pic {
-    width: 150px;
+    width: 200px;
     height: auto;
   }
 }
@@ -209,16 +205,26 @@ iframe {
     display: block; 
     width: 100%;
     margin: auto;
-    /* border: 2px solid rgb(158, 192, 34);  */
-    align-items: center;  
+    /* border: 2px solid rgb(158, 192, 34);       */
   }
 }
 
 #grid-item {
   width: 250px;
-  /* border: 1px solid black; */
+  margin: auto;
+  /* border: 1px solid black;   */
   margin-bottom: 40px; 
 }
+
+@media only screen and (max-width: 600px) {
+  #grid-item {
+    width: 200px;
+    margin: auto;
+    /* border: 1px solid black;   */
+    margin-bottom: 40px; 
+  }
+}
+
 
 #avatar {
   margin: 15px;

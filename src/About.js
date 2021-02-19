@@ -23,7 +23,7 @@ class About extends Component {
                              I am open to a job, collaboration and startups.</p> 
 
                     <h4 className="center">Tech Stack</h4>
-                    <div id="flex-tech-stack">
+                    {/* <div id="flex-tech-stack">
                         <div id="flex-item">
                             <p>• HTML</p>
                             <p>• CSS</p>
@@ -41,6 +41,31 @@ class About extends Component {
                             <p>• Cloudinary Storage</p>
                             <p>• Heroku</p>
                             <p>• GitHub</p>
+                        </div>
+                    </div> */}
+                    <div id="flex-tech-stack">
+                        <div id="tech-flex-item">
+                            <p>HTML</p> <hr/>
+                            <p>CSS</p><hr/>
+                            <p>Ruby</p><hr/>
+                            <p>API</p><hr/>
+                            <p>Ruby on Rails</p>
+                        </div>
+                        <div id="tech-flex-item">
+                            <p>JavaScript</p><hr/>
+                            <p>React.js</p><hr/>
+                            <p>Material UI</p><hr/>
+                            <p>React Router</p><hr/>                     
+                            <p>React Native</p>
+                          
+                        </div>
+                        <div id="tech-flex-item">
+                            
+                            <p>PostgreSQL</p><hr/>
+                            <p>SQLite</p><hr/>
+                            <p>Heroku</p><hr/>
+                            <p>GitHub</p><hr/>
+                            <p>Cloudinary Storage</p>
                         </div>
                     </div>
                 </div>
