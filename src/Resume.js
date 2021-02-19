@@ -62,31 +62,33 @@ class Resume extends Component {
                         <b><a href="http://www.nycable.net/"> NYCABLE</a> |
                             <a href="https://www.youtube.com/watch?v=ST63TI827O8"> DEMO</a>
                         </b>
-                        <p>An Info-Portal about all internet & TV providers in NYC, 
+                       
+                        <br></br> <br></br>
+                        <p>• An Info-Portal about all internet & TV providers in NYC, 
                             including payment plans, latest deals and more.</p>
-                        <div>
-                            <p>•  Built with React.js, Ruby on Rails, PostgreSQL</p>
-                            <p>• Technologies used: Nested React Routes, 
+                        <p>• Built with React.js, Ruby on Rails, PostgreSQL</p>
+                        <p>• Technologies used: Nested React Routes, 
                                     Cloudinary Storage, Material UI, 
                                     Browser Local Storage, JWT, Serializer, CSS</p>
-                            <p>• Hosted on Heroku, Google DNS</p>   
-                        </div>
+                        <p>• Hosted on Heroku, Google DNS</p>                 
                         <br></br>
+
                         <b> MY KITHEN | 
                             <a href="https://www.youtube.com/watch?v=1pHGREsQpdU"> DEMO</a>
                         </b> 
-                        <p>Recipes App. Users can add recipes, 
+                        <br></br> <br></br>
+                        <p> • Recipes App. Users can add recipes, 
                             select and search ingredients.</p>
-                        <div>
-                            <p>• Used Spoonacular open data source API for recipe content </p> 
-                            <p>• React.js and React Router for Frontend</p>  
-                            <p>• Ruby on Rails, PostgresSQL for Backend </p>
-                        </div>
+                        <p>• Used Spoonacular open data source API for recipe content </p> 
+                        <p>• React.js and React Router for Frontend</p>  
+                        <p>• Ruby on Rails, PostgresSQL for Backend </p>   
                         <br></br>
+
                         <b>PONDER |
                             <a href="https://www.youtube.com/watch?v=1pHGREsQpdU"> DEMO</a>
                         </b>
-                        <p> Single page Park Aplication. 
+                        <br></br> <br></br>
+                        <p>• Single page Park Aplication. 
                             Browse parks by choosing a US State, add likes, leave comments.</p> 
                         <p>• Built with Vanila JavaScript, Ruby on Rails and PostgreSQL</p>
 

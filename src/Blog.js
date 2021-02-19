@@ -23,7 +23,7 @@ class Blog extends Component {
                 <div id="grid-item">
                     <a href="https://juliana-ny2008.medium.com/rails-polymorphic-associations-30436714c774" target="_blank">
                         <img id="blog-pic" src={Rails}></img>   
-                    </a> 
+                    </a> <br></br>
                     <a href="https://juliana-ny2008.medium.com/rails-polymorphic-associations-30436714c774" target="_blank">
                             Rails. Polymorphic Association.
                     </a>
@@ -38,7 +38,7 @@ class Blog extends Component {
                 <div id="grid-item">
                     <a href="https://juliana-ny2008.medium.com/rails-polymorphic-associations-30436714c774" target="_blank">
                         <img id="blog-pic" src={User}></img>   
-                    </a>                        
+                    </a> <br></br>                      
                     <a href="https://juliana-ny2008.medium.com/rails-polymorphic-associations-30436714c774" target="_blank">
                             Uploading User Picture.
                     </a>
@@ -53,7 +53,7 @@ class Blog extends Component {
                 <div id="grid-item">
                     <a href="https://juliana-ny2008.medium.com/rails-polymorphic-associations-30436714c774" target="_blank">
                         <img id="blog-pic" src={Star}></img>   
-                    </a> 
+                    </a> <br></br>
                     <a href="https://juliana-ny2008.medium.com/rails-polymorphic-associations-30436714c774" target="_blank">
                             Integrating 5-Star Rating into React App.
                     </a>
@@ -66,7 +66,7 @@ class Blog extends Component {
                 <div id="grid-item">
                     <a href="https://juliana-ny2008.medium.com/rails-polymorphic-associations-30436714c774" target="_blank">
                         <img id="blog-pic" src={Heroku}></img>   
-                    </a>                      
+                    </a>  <br></br>                    
                     <a href="https://juliana-ny2008.medium.com/rails-polymorphic-associations-30436714c774" target="_blank">
                             Deploying Rails and React App to Heroku.
                     </a>
@@ -79,7 +79,7 @@ class Blog extends Component {
                 <div id="grid-item">
                     <a href="https://juliana-ny2008.medium.com/rails-polymorphic-associations-30436714c774" target="_blank">
                         <img id="blog-pic" src={PGAdmin}></img>   
-                    </a>                        
+                    </a> <br></br>                       
                     <a href="https://juliana-ny2008.medium.com/rails-polymorphic-associations-30436714c774" target="_blank">
                             Heroku $ pgAdmin
                     </a>
@@ -93,7 +93,7 @@ class Blog extends Component {
                 <div id="grid-item">
                     <a href="https://juliana-ny2008.medium.com/rails-polymorphic-associations-30436714c774" target="_blank">
                         <img id="blog-pic" src={Gitignore}></img>   
-                    </a>
+                    </a> <br></br>
                     <a href="https://juliana-ny2008.medium.com/rails-polymorphic-associations-30436714c774" target="_blank">
                             How to remove credentials from GitHub.
                     </a>

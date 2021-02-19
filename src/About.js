@@ -4,7 +4,7 @@ import Yuliya from './Pictures/Yuliya.jpg';
 class About extends Component {
     render() {
         return (
-            <div id="main-container">
+        <div id="main-container">
             <div id="header">
                 <h1>About me</h1> 
                 <p>Get to know me</p>
@@ -45,7 +45,7 @@ class About extends Component {
                     </div>
                 </div>
             </div>    
-          </div>
+        </div>
         );
     }
 }

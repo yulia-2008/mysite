@@ -8,7 +8,7 @@ class NavBar extends Component {
         return (          
                 <div id="nav-bar"> 
                     <img id="avatar" src={Yuliya} alt="yulia-picture"></img> 
-                    <div id="border">
+                    <div>
                         <p id="large" className="white">Yuliya Yurkevich</p>
                         <p id="small" className="white">Fullstack Software Engineer</p>              
                     </div> 
