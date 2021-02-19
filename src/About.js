@@ -21,9 +21,8 @@ class About extends Component {
                             that will always keep me learning.
                             In October 2020 I have graduated from Flatiron School as a Software Engineer.
                              I am open to a job, collaboration and startups.</p> 
-                    <br></br>
 
-                    <h4>Tech Stack</h4>
+                    <h4 className="center">Tech Stack</h4>
                     <div id="flex-tech-stack">
                         <div id="flex-item">
                             <p>• HTML</p>

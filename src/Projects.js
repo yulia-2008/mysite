@@ -8,7 +8,7 @@ class Projects extends Component {
                     <h1>Projects</h1>
                 </div>  
 
-                 <div id="width-70"> 
+                 <div id="width"> 
                     <b id="medium">NYCABLE</b>
                     <p id='medium'> <a href="http://www.nycable.net/"> www.nycable.net</a> </p>
                     <p> GitHub: <a href="https://github.com/yulia-2008/nycable_frontend">Frontend</a> &nbsp;

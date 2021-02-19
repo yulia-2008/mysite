@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import {Link} from 'react-router-dom';
 import Yuliya from './Pictures/Yuliya.jpg';
+import Button from './Pictures/Button.jpg'
 
 class NavBar extends Component {
     render() {
@@ -14,7 +15,9 @@ class NavBar extends Component {
                     <br></br> <br></br>
                     
                     <div class="dropdown">
-                        <button class="dropbtn" > Menu</button>
+                        {/* <button class="dropbtn" >  */}
+                            <img class="dropbtn" src={Button}></img>
+                        {/* </button> */}
                         <div class="dropdown-content">
                         <p><Link  to='/'> About </Link> </p>  <br></br>            
                         <p><Link  to='/projects'> Projects </Link> </p> <br></br>                

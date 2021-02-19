@@ -33,14 +33,14 @@ class Resume extends Component {
                         to help your business grow. </p>
                     <h3 className="center">Technical Skills</h3>
                     <div id="flex-tech-stack">
-                        <div id="flex-item">
+                        <div id="tech-flex-item">
                             <p>HTML</p> <hr/>
                             <p>CSS</p><hr/>
                             <p>Ruby</p><hr/>
                             <p>API</p><hr/>
                             <p>Ruby on Rails</p>
                         </div>
-                        <div id="flex-item">
+                        <div id="tech-flex-item">
                             <p>JavaScript</p><hr/>
                             <p>React.js</p><hr/>
                             <p>Material UI</p><hr/>
@@ -48,7 +48,7 @@ class Resume extends Component {
                             <p>React Native</p>
                           
                         </div>
-                        <div id="flex-item">
+                        <div id="tech-flex-item">
                             
                             <p>PostgreSQL</p><hr/>
                             <p>SQLite</p><hr/>
@@ -93,6 +93,7 @@ class Resume extends Component {
                     <h3 className="center">Work experience</h3>   
                         <b>Nomadic Hospitality LLC (Za-Ya Ramen Restaurant)</b> 
                         <p>Cook, Waiter (09/2018 - 03/2020)</p>
+                        <br></br>
                         <div>           
                             <p>• Ensured exceptional quality food preparation by cooking
                                 and serving all menu items and specials</p>
@@ -104,6 +105,7 @@ class Resume extends Component {
                         <br></br>
                         <b>Juice Generation Inc</b> 
                         <p>Sales team member  (10/2011 - 07/2017)</p> 
+                        <br></br>
                         <div>
                             <p>• Provided excellent customer service by engaging customers
                                 and accurately processing their orders</p>  
