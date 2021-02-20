@@ -5,12 +5,11 @@ class Resume extends Component {
     render() {
         return (
             <div id="main-container">           
-                {/* <h1 id="header">Resume</h1>                 */}
                 <div id="width-70">
                     <div className="center"> 
                     <br></br> <br></br>
-                        <h3 id="no-margin">Yuliya Yurkevich</h3>
-                        <p>Fullstack Software Engineer</p>
+                        <h3 id="no-margin" >Yuliya Yurkevich</h3>
+                        <p className="center">Fullstack Software Engineer</p>
                         <div id="flex-resume">
                             <div id="flex-item">
                                 <p> (1) 347-357-5454 </p> 
