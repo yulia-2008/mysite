@@ -6,9 +6,9 @@ class Projects extends Component {
             <div id="main-container">
                 <div id="header">
                     <h1>Projects</h1>
-                    <p> Currently I am working on my new project (Android Application)
+                    <p> Currently I am working on a new project (Android Application)
                         and plan to publish it on Play Store.</p> 
-                    <p> Come back soon to see a demo.  </p>
+                    <p> Demo is coming soon, come back to see it.</p>
                 </div>  
                 <hr/>
                 <br></br> <br></br>
@@ -53,7 +53,7 @@ class Projects extends Component {
                             <br></br>
                             <b id="medium">Backend</b>
                             <p>• Built with Ruby on Rails and PostgreSQL database. </p>
-                            <p>• Integrating Active Storage and Cloudinary Storage
+                            <p>• Integrated Active Storage and Cloudinary Storage
                                 for uploading and storing users profile pictures.</p>
                             <p>• Models Serializer for rendering necessary data.</p>
                             <p>• Models relationship set up using Polymorphic Association, 

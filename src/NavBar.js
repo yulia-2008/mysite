@@ -9,22 +9,39 @@ class NavBar extends Component {
         projectsStyle: {},
         resumeStyle: {},
         blogStyle: {},
-        contactStyle: {}
+        contactStyle: {},
+        dropdownStyle: {}
     }
 
     clickHandler = (style) => {
         if(window.innerWidth > 600) {
            this.setState({
-            aboutStyle: {},
-            projectsStyle: {},
-            resumeStyle: {},
-            blogStyle: {},
-            contactStyle: {} 
-        })
-        this.setState({
-            [style]: {fontSize: "23px", backgroundColor: "rgb(92, 90, 90)", border: "1px solid white", borderRadius: "5px"}   
-        }) 
-        }    
+                aboutStyle: {},
+                projectsStyle: {},
+                resumeStyle: {},
+                blogStyle: {},
+                contactStyle: {} 
+            })
+            this.setState({
+                [style]: {
+                    fontSize: "23px", 
+                    backgroundColor: "rgb(92, 90, 90)", 
+                    border: "1px solid white", 
+                    borderRadius: "5px"}   
+            }) 
+        } 
+        if(window.innerWidth < 600) {
+            
+            this.setState({
+                dropdownStyle: {
+                    display: "none"
+                }
+            })            
+        }
+    }
+    
+    showDropdown =() => {
+        this.setState({dropdownStyle: {}})
     }
 
     render() {
@@ -38,18 +55,26 @@ class NavBar extends Component {
                     <br></br> <br></br>
                     
                     <div class="dropdown">
-                        <img class="dropbtn" src={Button}></img>
-                        <div class="dropdown-content">
-                            <p style={this.state.aboutStyle} onClick={() => this.clickHandler('aboutStyle')}>
-                                <Link  to='/' id="link"> About </Link> </p>  <br></br>            
-                            <p style={this.state.projectsStyle} onClick={() => this.clickHandler('projectsStyle')}>
-                                <Link  to='/projects'> Projects </Link> </p> <br></br>                
-                            <p style={this.state.blogStyle} onClick={() => this.clickHandler('blogStyle')}>
-                                <Link  to='/blog'> Blog </Link> </p>   <br></br>                   
-                            <p style={this.state.resumeStyle} onClick={() => this.clickHandler('resumeStyle')}>
-                                <Link  to='/resume'> Resume </Link> </p>  <br></br>                
-                            <p style={this.state.contactStyle} onClick={() => this.clickHandler('contactStyle')}>
-                                <Link  to='/contact'> Contact </Link> </p>
+                        <img class="dropbtn" src={Button} onClick={this.showDropdown}></img>
+                        <div class="dropdown-content" style={this.state.dropdownStyle}>
+                            
+                                <Link  to='/'   style={this.state.aboutStyle}
+                                                onClick={() => this.clickHandler('aboutStyle')}> 
+                                                About </Link>  <br></br>            
+                            
+                                <Link  to='/projects' style={this.state.projectsStyle} 
+                                                      onClick={() => this.clickHandler('projectsStyle')}>
+                                                      Projects </Link>  <br></br>  
+
+                                <Link  to='/blog' style={this.state.blogStyle}
+                                                  onClick={() => this.clickHandler('blogStyle')} > 
+                                                  Blog </Link>   <br></br>                   
+                                <Link  to='/resume' style={this.state.resumeStyle}
+                                                    onClick={() => this.clickHandler('resumeStyle')}> 
+                                                    Resume </Link>   <br></br>                
+                                <Link  to='/contact' style={this.state.contactStyle}
+                                                     onClick={() => this.clickHandler('contactStyle')}>
+                                                          Contact </Link> 
                         </div>
                     </div>
                 </div> 

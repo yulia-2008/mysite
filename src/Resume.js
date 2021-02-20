@@ -60,8 +60,8 @@ class Resume extends Component {
                     </div>
   
                     <h3 className="center">Technical Projects</h3>
-                        <b><a href="http://www.nycable.net/"> NYCABLE</a> |
-                            <a href="https://www.youtube.com/watch?v=ST63TI827O8"> DEMO</a>
+                        <b><a href="http://www.nycable.net/"> NYCABLE</a> &nbsp; | &nbsp;
+                            <a href="https://www.youtube.com/watch?v=ST63TI827O8">DEMO</a>
                         </b>
                        
                         <br></br> <br></br>
@@ -74,8 +74,8 @@ class Resume extends Component {
                         <p>• Hosted on Heroku, Google DNS</p>                 
                         <br></br>
 
-                        <b> MY KITHEN | 
-                            <a href="https://www.youtube.com/watch?v=1pHGREsQpdU"> DEMO</a>
+                        <b> MY KITHEN  &nbsp; | &nbsp; 
+                            <a href="https://www.youtube.com/watch?v=1pHGREsQpdU">DEMO</a>
                         </b> 
                         <br></br> <br></br>
                         <p> • Recipes App. Users can add recipes, 
@@ -85,8 +85,8 @@ class Resume extends Component {
                         <p>• Ruby on Rails, PostgresSQL for Backend </p>   
                         <br></br>
 
-                        <b>PONDER |
-                            <a href="https://www.youtube.com/watch?v=1pHGREsQpdU"> DEMO</a>
+                        <b>PONDER  &nbsp; | &nbsp;
+                            <a href="https://www.youtube.com/watch?v=1pHGREsQpdU">DEMO</a>
                         </b>
                         <br></br> <br></br>
                         <p>• Single page Park Aplication. 
