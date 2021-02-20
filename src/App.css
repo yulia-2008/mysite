@@ -317,34 +317,41 @@ iframe {
   }
 }
 
-
 .dropbtn {
   display: none;
 }
 
-.dropdown-content a:hover {
-  background-color: #6b6d6b;
+.dropdown-content p:hover {
+  background-color: rgb(75, 73, 73);
+  border: 1px solid white; 
+  border-radius: 5px;
 }
 
 .dropdown-content {
   font-size: 20px;
 }
 
+.dropdown-content p {
+  color:white;
+  width: 40%;
+  margin: auto;
+  padding: 5px 10px;
+  text-decoration: none;
+  display: block;
+  /* border: 2px solid white; 
+  border-radius: 5px; */
+}
+
+
+
 
 @media only screen and (max-width: 600px) {
 .dropbtn {
   display: block;
-  /* background-color: #6b6d6b;
-  
-  color: white;
-  margin: 15px;
-  font-size: 16px; 
-   */
   border: 1px solid #ddd;
   border-radius: 4px;
   width: 65px;
   height: 45px;
-  /* padding: 15px; */
   cursor: pointer;
   margin: 10px 20px;
 
@@ -364,18 +371,22 @@ iframe {
   background-color:rgb(71, 67, 67);
   /* background-color: #6b6d6b;  */
   min-width: 100px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  padding-right: 15px;
+  padding-bottom: 15px;
+  padding-left: 15px;
+  
   z-index: 1;
 }
 
-.dropdown-content a {
+.dropdown-content p {
+  width: 80%;
   color:white;
   padding: 5px 10px;
   text-decoration: none;
   display: block;
 }
 
-.dropdown-content a:hover {
+.dropdown-content p:hover {
   background-color: rgb(102, 102, 102);
 }
 

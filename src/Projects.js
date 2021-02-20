@@ -6,19 +6,25 @@ class Projects extends Component {
             <div id="main-container">
                 <div id="header">
                     <h1>Projects</h1>
+                    <p> Currently I am working on my new project (Android Application)
+                        and plan to publish it on Play Store.</p> 
+                    <p> Come back soon to see a demo.  </p>
                 </div>  
+                <hr/>
+                <br></br> <br></br>
 
                  <div id="width"> 
                     <b id="medium">NYCABLE</b> <br></br>
+                    <br></br>
                     <p id='medium'> <a href="http://www.nycable.net/"> www.nycable.net</a> </p>
                     <p> GitHub: <a href="https://github.com/yulia-2008/nycable_frontend">Frontend</a> &nbsp;
                         <a href="https://github.com/yulia-2008/nycable_backend">Backend</a>
                     </p>
-                    <br></br>
+                    <br></br> 
                     <p>An Info-Portal about all internet & TV
                         providers in NYC, payment plans,
                         latest deals, areas of coverage and available technicians. </p>
-                        <br></br>
+                        <br></br> 
                     <div id="flex">
                         <div id="flex-item">
                             <iframe  src="https://www.youtube.com/embed/ST63TI827O8/"></iframe>
@@ -61,6 +67,7 @@ class Projects extends Component {
                     <hr></hr> 
 
                     <b id="medium">MY KITCHEN</b>
+                    <br></br> <br></br>
                     <p>GitHub: &nbsp;
                         <a href="https://github.com/yulia-2008/my-kitchen-frontend">Frontend</a> &nbsp;
                         <a href="https://github.com/yulia-2008/MyKitchen-backend">Backend</a>
@@ -68,8 +75,8 @@ class Projects extends Component {
                     <br></br>
                     <p>Cooking Application that allows you to search and celect
                         ingredients and the app will
-                        find the recipes for you to cook.</p>
-                    <p>App was built during Flatiron School
+                        find the recipes for you to cook.
+                        App was built during Flatiron School
                         study in a collaboration with Roman Opalacz. </p>
                     <br></br>
                     <div id="flex">
@@ -94,14 +101,15 @@ class Projects extends Component {
                     <hr></hr>
 
                     <b id="medium">PONDER</b>
+                    <br></br> <br></br>
                     <p>GitHub: &nbsp;
                         <a href="https://github.com/yulia-2008/ponder_frontend">Frontend</a> &nbsp;
                         <a href="https://github.com/yulia-2008/ponder_backend">Backend</a>
                     </p>
                     <br></br>
-                    <p>Single page Park App. </p>
-                    <p>App was built during Flatiron School
-                            study in a collaboration with Taevon Jordan. </p>    
+                    <p>Single page Park App. 
+                        App was built during Flatiron School
+                        study in a collaboration with Taevon Jordan. </p>    
                     <br></br>
                     <div id="flex">
                         <div id="flex-item">
