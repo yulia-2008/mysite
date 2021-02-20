@@ -39,7 +39,7 @@ class NavBar extends Component {
             })            
         }
     }
-    
+
     showDropdown =() => {
         this.setState({dropdownStyle: {}})
     }
@@ -60,18 +60,18 @@ class NavBar extends Component {
                             
                                 <Link  to='/'   style={this.state.aboutStyle}
                                                 onClick={() => this.clickHandler('aboutStyle')}> 
-                                                About </Link>  <br></br>            
+                                                About </Link>              
                             
                                 <Link  to='/projects' style={this.state.projectsStyle} 
                                                       onClick={() => this.clickHandler('projectsStyle')}>
-                                                      Projects </Link>  <br></br>  
+                                                      Projects </Link>  
 
                                 <Link  to='/blog' style={this.state.blogStyle}
                                                   onClick={() => this.clickHandler('blogStyle')} > 
-                                                  Blog </Link>   <br></br>                   
+                                                  Blog </Link>                    
                                 <Link  to='/resume' style={this.state.resumeStyle}
                                                     onClick={() => this.clickHandler('resumeStyle')}> 
-                                                    Resume </Link>   <br></br>                
+                                                    Resume </Link>                  
                                 <Link  to='/contact' style={this.state.contactStyle}
                                                      onClick={() => this.clickHandler('contactStyle')}>
                                                           Contact </Link> 
