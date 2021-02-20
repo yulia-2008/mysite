@@ -240,6 +240,9 @@ iframe {
 .logo{
   width: 60px;
   height: 60px;
+  border: 2px solid white;
+  border-radius: 8px;
+  margin: 5px;
 }
 
 #no-margin{
