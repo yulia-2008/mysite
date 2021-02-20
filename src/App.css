@@ -8,6 +8,16 @@ p {
 
 hr { 
   /* in resume container, underlined tech stack */
+  width: 100%;
+  margin-left: 0;
+}
+
+#header > #width-100  {
+  width: 100%;
+  margin-left: 0;
+}
+
+#header > hr {
   width: 80%;
   margin-left: 0;
 }

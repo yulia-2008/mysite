@@ -8,7 +8,10 @@ class About extends Component {
             <div id="header">
                 <h1>About me</h1> 
                 <p>Get to know me</p>
-            </div>   
+            <hr id="width-100"/>
+            </div>  
+            
+            <br></br> <br></br>
             <div id="flex">
                 <div id="picture-container">    
                     <img id="picture" src={Yuliya} alt="yuliya-pict"></img> 

@@ -17,9 +17,10 @@ class Blog extends Component {
                 <p>  You can find all my blogs on 
                     <a href="https://juliana-ny2008.medium.com/" target="_blank"> medium.com</a>
                 </p>
+            <hr/>   
             </div>   
-            <hr/>
-                <br></br> <br></br> <br></br>
+            
+            <br></br> <br></br>
             <div id="grid-container">
                 <div id="grid-item">
                     <a href="https://juliana-ny2008.medium.com/rails-polymorphic-associations-30436714c774" target="_blank">
