@@ -23,26 +23,6 @@ class About extends Component {
                              I am open to a job, collaboration and startups.</p> 
 
                     <h4 className="center">Tech Stack</h4>
-                    {/* <div id="flex-tech-stack">
-                        <div id="flex-item">
-                            <p>• HTML</p>
-                            <p>• CSS</p>
-                            <p>• Ruby</p>
-                            <p>• Ruby on Rails</p>
-                            <p>• JavaScript</p>
-                            <p>• React.js</p>
-                            <p>• React Router</p>
-                        </div>
-                        <div id="flex-item">
-                            <p>• Material UI</p>
-                            <p>• React Native</p>
-                            <p>• PostgreSQL</p>
-                            <p>• SQLite</p>
-                            <p>• Cloudinary Storage</p>
-                            <p>• Heroku</p>
-                            <p>• GitHub</p>
-                        </div>
-                    </div> */}
                     <div id="flex-tech-stack">
                         <div id="tech-flex-item">
                             <p>HTML</p> <hr/>
