@@ -7,9 +7,10 @@ p {
 }
 
 hr { 
-  /* in resume container, underlined tech stack */
-  width: 100%;
+  /* in resume and about container, underlined tech stack */
+  width: 60%;
   margin-left: 0;
+  border: 1px solid lightgray;
 }
 
 #header > #width-100  {
@@ -18,12 +19,14 @@ hr {
 }
 
 #header > hr {
-  width: 80%;
-  margin-left: 0;
+  width: 100%;
+  margin-left: 0px;
+  /* border: 1px solid rgb(251, 198, 30); */
+  border: 1px solid lightgray;
 }
 
 a { 
-  color:rgb(92, 160, 224);
+  color: rgb(92, 160, 224);
 }
 
 iframe {
@@ -34,6 +37,7 @@ iframe {
   /* devider between projects */
   margin-top: 30px;
   margin-bottom: 30px;
+  border: 1px solid lightgray;
 }
 
 #medium {
@@ -41,8 +45,18 @@ iframe {
  }
 
 .white {
-  color: white;
+  color: black;
   text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  /* text-shadow: 1px 1px white; */
+}
+
+@media only screen and (max-width: 600px) {
+  .white {
+    color: white;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;  
+  }
 }
 
 #flex-resume {
@@ -93,8 +107,98 @@ iframe {
   padding-bottom: 30px;
 }
 
+#picture {
+  width: fill; 
+  /* max-width: 100%; */
+  width: 100%;
+  height: auto;
+  padding: 4px;
+  margin: 3px;
+  /* border: 2px solid grey; */
+  border: 2px solid  rgb(251, 198, 30);
+  border-radius: 7%;
+  
+}
+
 #picture-container{
   width: 50%;
+  position: relative;
+}
+
+/* #bnt-prev {
+  position: absolute;
+  opacity: 0.8;
+  left: 0;
+  top: 50%;
+} */
+
+#next {
+  position: absolute;
+  opacity: 0.6;
+  right: 10px;
+  top: 50%;
+  padding: 10px 10px 7px 10px;
+  background-color: white ;
+  border: 1px solid black ;
+  border-radius: 5px;
+  font-weight: bold;
+  margin: 0px;
+}
+
+#next:hover {
+  opacity: 0.9;
+}
+
+#prev:hover {
+  opacity: 0.9;
+}
+
+#prev {
+  position: absolute;
+  opacity: 0.6;
+  left: 25px;
+  top: 50%;
+  padding: 10px 10px 7px 10px;
+  background-color: white ;
+  border: 1px solid black ;
+  border-radius: 5px;
+  /* box-shadow: 2px 3px grey; */
+  font-weight: bold;
+  margin: 0px; 
+}
+
+#dot1 {
+  position:absolute;
+  top: 93%;
+  left: 45%;
+  background-color: gray;
+  border: 1px solid black;
+  border-radius: 50%;
+  margin: 4px;
+  height: 12px;
+  
+}
+
+#dot2 {
+  position:absolute;
+  top: 93%;
+  left: 50%;
+  background-color: grey;
+  border: 1px solid black;
+  border-radius: 50%;
+  margin: 4px;
+  height: 12px;
+}
+
+#dot3 {
+  position:absolute;
+  top: 93%;
+  left: 55%;
+  background-color: gray;
+  border: 1px solid black;
+  border-radius: 50%;
+  margin: 4px;
+  height: 12px;
 }
 
 @media only screen and (max-width: 600px) {
@@ -112,27 +216,9 @@ iframe {
   @media only screen and (max-width: 600px) {
     #text-container{
       width: 100%;
-      padding-left: 0px;
-      padding-right: 0px;
+      padding: 10px 0px 0px 0px;
       }
   }
-
-  
-#picture {
-  width: fill; 
-  max-width: 100%;
-  height: auto;
-  padding: 4px;
-  margin: 3px;
-  border: 2px solid grey;
-  border-radius: 5px;;
-}
-
-.dropdown-content a {
-  color: white;
-  text-decoration: none;
-}
-
 
 #nav-bar {
   /* top, right, bottom, left  */
@@ -141,8 +227,9 @@ iframe {
   min-height: 100%;
   /* height: auto;  */
   text-align: center;
-  background-color:rgb(71, 67, 67);
-  border-right: 4px dotted white; 
+  /* background-color:rgb(71, 67, 67); */
+  background-color: rgb(251, 198, 30);
+  border-right: 1px solid grey; 
 }
 
 @media only screen and (max-width: 600px) {
@@ -150,6 +237,7 @@ iframe {
     display: flex;
     position: sticky;
     top: 0;
+    background-color:rgb(71, 67, 67);
     padding: 1px 1px 5px 1px;
     align-items: center;
     width: 100%;
@@ -161,7 +249,7 @@ iframe {
 /* 80% - main, 20 % - navBar */
   padding: 20px 100px 20px 100px;
   width: 80%;
-  border-left: 4px dotted black; 
+  /* border-left: 2px dotted black;  */
   /* border: 3px solid green; */
   height: auto;; 
 }
@@ -173,7 +261,7 @@ iframe {
     width: 80%;
     height: auto;
     margin: auto;
-    border: none;
+    /* border: none; */
   }  
 }
 
@@ -308,6 +396,7 @@ iframe {
 }
 
 .dropdown-content a:hover {
+  color: white;
   background-color: rgb(75, 73, 73);
   border: 1px solid white; 
   border-radius: 5px;
@@ -319,7 +408,7 @@ iframe {
 }
 
 .dropdown-content a {
-  color:white;
+  color: black;
   width: 40%;
   /* margin: auto; */
   padding: 5px 10px;
@@ -353,16 +442,14 @@ iframe {
   background-color:rgb(71, 67, 67);
   border-radius: 5px;
   min-width: 100px;
-  padding-right: 15px;
-  padding-bottom: 15px;
-  padding-left: 15px;
+  padding: 15px;
   z-index: 1;
 }
 
 .dropdown-content a {
   width: 80%;
   color:white;
-  padding: 5px 10px;
+  padding: 10px 2px;
   text-decoration: none;
   display: block;
   margin: 10px;

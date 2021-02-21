@@ -13,8 +13,8 @@ class Blog extends Component {
             <div id="header">
                 <h1>Blog</h1>
                 <p>I enjoy writing technical blogs about programming tools
-                     and techniques that I have learned.</p>
-                <p>  You can find all my blogs on 
+                     and techniques that I have learned.
+                     You can find all my blogs on 
                     <a href="https://juliana-ny2008.medium.com/" target="_blank"> medium.com</a>
                 </p>
             <hr/>   

@@ -1,7 +1,64 @@
 import React, { Component } from 'react';
-import Yuliya from './Pictures/Yuliya.jpg';
+import Photo from './Pictures/Photo.jpg';
+import Photo1 from './Pictures/Photo1.jpg';
+import Photo2 from './Pictures/Photo2.JPG';
+
 
 class About extends Component {
+    state={
+        photo: Photo,
+        dot1Style: {backgroundColor: "white"},
+        dot2Style: {},
+        dot3Style: {},
+        btnStyle: {}
+    }
+
+    nextPhoto = () => {
+        if (this.state.photo === Photo){
+            this.setState({photo: Photo1, 
+                           dot1Style: {},
+                           dot2Style: {backgroundColor: "white"}
+            })
+        }
+        if (this.state.photo === Photo1 ){
+            this.setState({photo: Photo2,
+                            dot2Style: {},
+                            dot3Style: {backgroundColor: "white"}
+            })
+        }
+        if (this.state.photo === Photo2 ){
+            this.setState({photo: Photo,
+                            dot3Style: {},
+                            dot1Style: {backgroundColor: "white"}
+            })
+        }
+        
+    }
+    prevPhoto = () => {
+        if (this.state.photo === Photo){
+            this.setState({photo: Photo2,
+                           dot1Style: {},
+                           dot3Style: {backgroundColor: "white"},
+            })
+        }
+
+        if (this.state.photo === Photo2){
+            this.setState({photo: Photo1,
+                           dot3Style: {},
+                           dot2Style: {backgroundColor: "white"},
+            })
+        }
+        if (this.state.photo === Photo1 ){
+            this.setState({photo: Photo,
+                          dot2Style: {},
+                          dot1Style: {backgroundColor: "white"}           
+            })
+        }
+        
+    }
+
+
+
     render() {
         return (
         <div id="main-container">
@@ -13,8 +70,14 @@ class About extends Component {
             
             <br></br> <br></br>
             <div id="flex">
-                <div id="picture-container">    
-                    <img id="picture" src={Yuliya} alt="yuliya-pict"></img> 
+                <div id="picture-container"> 
+              
+                    <img id="picture" src={this.state.photo} alt="yuliya-pict"></img>
+                    <button  id="next"  alt="prev button" onClick={this.nextPhoto}> NEXT </button>                 
+                    <button  id="prev"  alt="prev button" onClick={this.prevPhoto}> PREV </button>
+                    <button id="dot1" style={this.state.dot1Style}></button>
+                    <button id="dot2" style={this.state.dot2Style}></button>
+                    <button id="dot3" style={this.state.dot3Style}></button>
                 </div>
                 <div id="text-container">
                     <p id="no-margin">Hello! My name is Yuliya and I am a Full Stack Software Engineer
@@ -59,3 +122,27 @@ class About extends Component {
 }
 
 export default About;
+
+{/* <a href="#" class="previous">&laquo; Previous</a>
+<a href="#" class="next">Next &raquo;</a>
+
+<a href="#" class="previous round">&#8249;</a>
+<a href="#" class="next round">&#8250;</a>
+
+a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  .previous {
+    background-color: #f1f1f1;
+    color: black;
+  }
+  
+  .next {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  .round {
+    border-radius: 50%; */}
