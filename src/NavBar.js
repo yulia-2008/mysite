@@ -11,7 +11,8 @@ class NavBar extends Component {
         resumeStyle: {},
         blogStyle: {},
         contactStyle: {},
-        dropdownStyle: {}
+        dropdownStyle: {},
+        clicked: false
     }
 
     clickHandler = (style) => {
@@ -41,9 +42,14 @@ class NavBar extends Component {
         }
     }
 
-    showDropdown =() => {
+    resetStyle =() => {
         this.props.style()
+        // on mouse over get back to css style, so the contect can be visible 
         this.setState({dropdownStyle: {} })
+    }
+
+    hideOrShowDropdown = () => {
+        this.setState({clicked: !this.state.clicked})
     }
 
 
@@ -59,8 +65,8 @@ class NavBar extends Component {
                     <br></br> <br></br>
                     
                     <div class="dropdown">
-                        <img class="dropbtn" src={Button} onClick={this.showDropdown}></img>
-                        <div class="dropdown-content" style={this.state.dropdownStyle}>
+                        <img class="dropbtn" src={Button} onMouseOver={this.resetStyle} onClick={this.hideOrShowDropdown}></img>
+                        <div class="dropdown-content" style={ this.state.clicked? this.state.dropdownStyle :   } : >
                             
                                 <Link  to='/'   style={this.state.aboutStyle}
                                                 onClick={() => this.clickHandler('aboutStyle')}> 
