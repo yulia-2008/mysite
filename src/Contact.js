@@ -5,7 +5,7 @@ import LinkedInLogo from './Pictures/LinkedInLogo.png';
 class Contact extends Component {
     render() {
         return (
-            <div id="main-container-contact">  
+            <div id="main-container">  
                 <div id="header">
                     <h1>Contact</h1> 
                     <p>Feel free to contact me anytime.</p>

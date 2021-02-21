@@ -7,6 +7,7 @@ import Resume from './Resume';
 import Projects from './Projects';
 import Contact from './Contact';
 import { HashRouter, Route} from 'react-router-dom';
+import Test from './Test';
 
 
 class App extends React.Component {
@@ -23,6 +24,7 @@ class App extends React.Component {
               <Route exact path = '/blog' component={Blog} />
               <Route exact path = '/resume' component={Resume} />
               <Route exact path = '/contact' component={Contact} />
+              <Route exact path = '/test' component={Test} />
             </div>                      
         </HashRouter>     
     </>
