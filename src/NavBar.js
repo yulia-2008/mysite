@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import {Link} from 'react-router-dom';
 import Yuliya from './Pictures/Yuliya.jpg';
+import Yulia1 from './Pictures/Yulia1.jpg';
 import Button from './Pictures/Button.jpg'
 
 class NavBar extends Component {
@@ -25,7 +26,7 @@ class NavBar extends Component {
             this.setState({
                 [style]: {
                     fontSize: "23px", 
-                    backgroundColor: "rgb(92, 90, 90)", 
+                    backgroundColor: "rgb(212, 169, 25)", 
                     border: "1px solid white", 
                     borderRadius: "5px"}   
             }) 
@@ -47,7 +48,11 @@ class NavBar extends Component {
     render() {
         return (          
                 <div id="nav-bar"> 
+                   {window.innerWidth > 600 ?
                     <img id="avatar" src={Yuliya} alt="yulia-picture"></img> 
+                    :
+                    <img id="avatar" src={Yuliya} alt="yulia-picture"></img>
+                   } 
                     <div>
                         <p id="large" className="white">Yuliya Yurkevich</p>
                         <p id="small" className="white">Fullstack Software Engineer</p>              
