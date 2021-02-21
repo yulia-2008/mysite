@@ -14,6 +14,7 @@ class About extends Component {
     }
 
     nextPhoto = () => {
+        console.log ("yes")
         if (this.state.photo === Photo){
             this.setState({photo: Photo1, 
                            dot1Style: {},
@@ -37,7 +38,7 @@ class About extends Component {
     prevPhoto = () => {
         if (this.state.photo === Photo){
             this.setState({photo: Photo2,
-                           dot1Style: {},
+                           dotStyle: {},
                            dot3Style: {backgroundColor: "white"},
             })
         }
@@ -59,7 +60,7 @@ class About extends Component {
 
 
 
-    render() {
+    render() {  console.log("2", this.props.style);
         return (
         <div id="main-container">
             <div id="header">
@@ -70,7 +71,7 @@ class About extends Component {
             
             <br></br> <br></br>
             <div id="flex">
-                <div id="picture-container"> 
+                <div id="picture-container" style={this.props.style}> 
               
                     <img id="picture" src={this.state.photo} alt="yuliya-pict"></img>
                     <button  id="next"  alt="prev button" onClick={this.nextPhoto}> NEXT </button>                 

@@ -11,15 +11,23 @@ import { HashRouter, Route} from 'react-router-dom';
 
 
 class App extends React.Component {
+  state={
+    pictureStyle: {}
+  }
+
+  pictureStyle = () => {
+    this.setState({pictureStyle: {zIndex: "-1"}})
+   console.log("1", this.state.pictureStyle)
+  }
 
 
- render() {
+ render() {  console.log("2", this.state.pictureStyle);
   return (
     <>
         <HashRouter hashType="noslash">
             <div id="flex">
-              <NavBar/>
-              <Route exact path = '/' component={About} />  
+              <NavBar style={this.pictureStyle}/>
+              <Route exact path = '/' render={() => <About style={this.state.pictureStyle}/> } />
               <Route exact path = '/projects' component={Projects} />
               <Route exact path = '/blog' component={Blog} />
               <Route exact path = '/resume' component={Resume} />

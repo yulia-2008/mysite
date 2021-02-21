@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import {Link} from 'react-router-dom';
 import Yuliya from './Pictures/Yuliya.jpg';
-import Yulia1 from './Pictures/Yulia1.jpg';
+
 import Button from './Pictures/Button.jpg'
 
 class NavBar extends Component {
@@ -42,17 +42,16 @@ class NavBar extends Component {
     }
 
     showDropdown =() => {
-        this.setState({dropdownStyle: {}})
+        this.props.style()
+        this.setState({dropdownStyle: {} })
     }
+
+
 
     render() {
         return (          
-                <div id="nav-bar"> 
-                   {window.innerWidth > 600 ?
+                <div id="nav-bar">                 
                     <img id="avatar" src={Yuliya} alt="yulia-picture"></img> 
-                    :
-                    <img id="avatar" src={Yuliya} alt="yulia-picture"></img>
-                   } 
                     <div>
                         <p id="large" className="white">Yuliya Yurkevich</p>
                         <p id="small" className="white">Fullstack Software Engineer</p>              
