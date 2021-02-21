@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import Photo from './Pictures/Photo.jpg';
 import Photo1 from './Pictures/Photo1.jpg';
-import Photo2 from './Pictures/Photo2.JPG';
+import Photo2 from './Pictures/Photo2.jpg';
 
 
 class About extends Component {
@@ -9,12 +9,10 @@ class About extends Component {
         photo: Photo,
         dot1Style: {backgroundColor: "white"},
         dot2Style: {},
-        dot3Style: {},
-        btnStyle: {}
+        dot3Style: {}
     }
 
     nextPhoto = () => {
-        console.log ("yes")
         if (this.state.photo === Photo){
             this.setState({photo: Photo1, 
                            dot1Style: {},
@@ -24,22 +22,22 @@ class About extends Component {
         if (this.state.photo === Photo1 ){
             this.setState({photo: Photo2,
                             dot2Style: {},
-                            dot3Style: {backgroundColor: "white"}
+                            dot3Style: {backgroundColor: "white"}                         
             })
         }
         if (this.state.photo === Photo2 ){
             this.setState({photo: Photo,
                             dot3Style: {},
-                            dot1Style: {backgroundColor: "white"}
+                            dot1Style: {backgroundColor: "white"}                          
             })
-        }
-        
+        }        
     }
     prevPhoto = () => {
         if (this.state.photo === Photo){
             this.setState({photo: Photo2,
                            dotStyle: {},
                            dot3Style: {backgroundColor: "white"},
+                           btnStyle: {opacity: "0.6"}
             })
         }
 
@@ -47,12 +45,14 @@ class About extends Component {
             this.setState({photo: Photo1,
                            dot3Style: {},
                            dot2Style: {backgroundColor: "white"},
+                           btnStyle: {opacity: "0.6"}
             })
         }
         if (this.state.photo === Photo1 ){
             this.setState({photo: Photo,
                           dot2Style: {},
-                          dot1Style: {backgroundColor: "white"}           
+                          dot1Style: {backgroundColor: "white"},
+                          btnStyle: {opacity: "0.6"}         
             })
         }
         
@@ -74,8 +74,8 @@ class About extends Component {
                 <div id="picture-container" style={this.props.style}> 
               
                     <img id="picture" src={this.state.photo} alt="yuliya-pict"></img>
-                    <button  id="next"  alt="prev button" onClick={this.nextPhoto}> NEXT </button>                 
-                    <button  id="prev"  alt="prev button" onClick={this.prevPhoto}> PREV </button>
+                    <button  id="next"  alt="prev button" onClick={this.nextPhoto} > NEXT </button>                 
+                    <button  id="prev"  alt="prev button" onClick={this.prevPhoto} > PREV </button>
                     <button id="dot1" style={this.state.dot1Style}></button>
                     <button id="dot2" style={this.state.dot2Style}></button>
                     <button id="dot3" style={this.state.dot3Style}></button>

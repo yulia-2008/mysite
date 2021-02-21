@@ -108,7 +108,6 @@ iframe {
 }
 
 #picture {
-  width: fill; 
   /* max-width: 100%; */
   width: 100%;
   height: auto;
@@ -166,11 +165,17 @@ iframe {
   top: 93%;
   left: 45%;
   background-color: gray;
-  border: 1px solid black;
+  border: 1px solid white;
   border-radius: 50%;
-  margin: 4px;
-  height: 12px;
-  
+  height: 12px; 
+}
+
+@media only screen and (max-width: 600px) {
+  #dot1 {
+    position:absolute;
+    top: 88%;
+    left: 40%;
+  }
 }
 
 #dot2 {
@@ -178,10 +183,17 @@ iframe {
   top: 93%;
   left: 50%;
   background-color: grey;
-  border: 1px solid black;
-  border-radius: 50%;
-  margin: 4px;
+  border: 1px solid white;
+  border-radius: 50%; 
   height: 12px;
+}
+
+@media only screen and (max-width: 600px) {
+  #dot2 {
+    position:absolute;
+    top: 88%;
+    left: 50%;
+  }
 }
 
 #dot3 {
@@ -189,10 +201,17 @@ iframe {
   top: 93%;
   left: 55%;
   background-color: gray;
-  border: 1px solid black;
+  border: 1px solid white;
   border-radius: 50%;
-  margin: 4px;
   height: 12px;
+}
+
+@media only screen and (max-width: 600px) {
+  #dot3 {
+    position:absolute;
+    top: 88%;
+    left: 60%;
+  }
 }
 
 @media only screen and (max-width: 600px) {
