@@ -21,12 +21,14 @@ hr {
 #header > hr {
   width: 100%;
   margin-left: 0px;
-  /* border: 1px solid rgb(251, 198, 30); */
   border: 1px solid lightgray;
 }
 
 a { 
-  color: rgb(92, 160, 224);
+  color: black; 
+  text-decoration-color:grey;
+  text-shadow: 1px 1px rgb(251, 198, 30);
+  /* color: rgb(251, 198, 30); */
 }
 
 iframe {
