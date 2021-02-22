@@ -1,55 +1,55 @@
 import React, { Component } from 'react';
-import Photo from './Pictures/Photo.jpg';
-import Photo1 from './Pictures/Photo1.jpg';
+import Pic1 from './Pictures/Pic1.jpg';
+import Pic2 from './Pictures/Pic2.jpg';
 import Photo2 from './Pictures/Photo2.jpg';
 
 
 class About extends Component {
     state={
-        photo: Photo,
+        photo: Pic1,
         dot1Style: {backgroundColor: "white"},
         dot2Style: {},
         dot3Style: {}
     }
 
     nextPhoto = () => {
-        if (this.state.photo === Photo){
-            this.setState({photo: Photo1, 
+        if (this.state.photo === Pic1){
+            this.setState({photo: Pic2, 
                            dot1Style: {},
                            dot2Style: {backgroundColor: "white"}
             })
         }
-        if (this.state.photo === Photo1 ){
+        if (this.state.photo === Pic2 ){
             this.setState({photo: Photo2,
                             dot2Style: {},
                             dot3Style: {backgroundColor: "white"}                         
             })
         }
         if (this.state.photo === Photo2 ){
-            this.setState({photo: Photo,
+            this.setState({photo: Pic1,
                             dot3Style: {},
                             dot1Style: {backgroundColor: "white"}                          
             })
         }        
     }
     prevPhoto = () => {
-        if (this.state.photo === Photo){
+        if (this.state.photo === Pic1){
             this.setState({photo: Photo2,
-                           dotStyle: {},
+                           dot1Style: {},
                            dot3Style: {backgroundColor: "white"},
                            btnStyle: {opacity: "0.6"}
             })
         }
 
         if (this.state.photo === Photo2){
-            this.setState({photo: Photo1,
+            this.setState({photo: Pic2,
                            dot3Style: {},
                            dot2Style: {backgroundColor: "white"},
                            btnStyle: {opacity: "0.6"}
             })
         }
-        if (this.state.photo === Photo1 ){
-            this.setState({photo: Photo,
+        if (this.state.photo === Pic2 ){
+            this.setState({photo: Pic1,
                           dot2Style: {},
                           dot1Style: {backgroundColor: "white"},
                           btnStyle: {opacity: "0.6"}         
@@ -60,7 +60,7 @@ class About extends Component {
 
 
 
-    render() {  console.log("2", this.props.style);
+    render() {  
         return (
         <div id="main-container">
             <div id="header">
@@ -69,7 +69,7 @@ class About extends Component {
             <hr id="width-100"/>
             </div>  
             
-            <br></br> <br></br>
+            <br></br> 
             <div id="flex">
                 <div id="picture-container" style={this.props.style}> 
               

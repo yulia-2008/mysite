@@ -16,12 +16,12 @@ class App extends React.Component {
   }
 
   pictureStyle = () => {
-    this.setState({pictureStyle: {zIndex: "-1"}})
+    this.setState({pictureStyle: {zIndex: "1"}})
    console.log("1", this.state.pictureStyle)
   }
 
 
- render() {  console.log("2", this.state.pictureStyle);
+ render() { 
   return (
     <>
         <HashRouter hashType="noslash">
