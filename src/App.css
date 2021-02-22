@@ -271,6 +271,7 @@ iframe {
     align-items: center;
     width: 100%;
     border: none;
+    z-index: 1;
   }
 }
 
@@ -483,7 +484,7 @@ iframe {
   padding: 1px 1px;
   text-decoration: none;
   display: block;
-  margin: 3px;
+  margin: 10px 3px 10px 3px;
 }
 
 .dropdown-content a:hover {
