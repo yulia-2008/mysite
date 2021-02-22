@@ -80,10 +80,19 @@ iframe {
 #flex {
   display: flex;
   width: 100%;
-  height: auto; 
+  min-height: 100%; 
   margin: 0px; 
 }
-
+#flex-about {
+  display: flex;
+}
+ 
+@media only screen and (max-width: 600px) {
+  #flex-about {
+    display: block;
+    align-items: center;
+  }
+}
 
 @media only screen and (max-width: 600px) {
   #flex {
@@ -116,15 +125,12 @@ iframe {
 }
 
 #picture {
-  /* max-width: 100%; */
   width: 100%;
   height: auto;
-  padding: 4px;
+  padding: 2px;
   margin: 3px;
-  /* border: 2px solid grey; */
   border: 2px solid  rgb(251, 198, 30);
   border-radius: 7%;
-  
 }
 
 #picture-container{
@@ -136,8 +142,8 @@ iframe {
 #next {
   position: absolute;
   opacity: 0.6;
-  right: 25%;
-  top: 92%;
+  right: 20%;
+  top: 2%;
   padding: 7px 10px 5px 10px;
   background-color: white ;
   border: 1px solid black ;
@@ -147,12 +153,10 @@ iframe {
 }
 @media only screen and (max-width: 600px) {
   #next {   
-    right: 5%;
-    top: 85%;   
+    right: 7%;
+    top: 3%;   
   }
 }
-
-
 
 #next:hover {
   opacity: 0.9;
@@ -165,8 +169,8 @@ iframe {
 #prev {
   position: absolute;
   opacity: 0.6;
-  left: 28%;
-  top: 92%;
+  left: 24%;
+  top: 2%;
   padding: 7px 10px 5px 10px;
   background-color: white ;
   border: 1px solid black ;
@@ -179,13 +183,13 @@ iframe {
 @media only screen and (max-width: 600px) {
   #prev {   
     left: 10%;
-    top: 85%;   
+    top: 3%;   
   }
 }
 
 #dot1 {
   position:absolute;
-  top: 93%;
+  top: 3%;
   left: 45%;
   background-color: gray;
   border: 1px solid white;
@@ -196,14 +200,14 @@ iframe {
 @media only screen and (max-width: 600px) {
   #dot1 {
     position:absolute;
-    top: 88%;
+    top: 5%;
     left: 40%;
   }
 }
 
 #dot2 {
   position:absolute;
-  top: 93%;
+  top: 3%;
   left: 50%;
   background-color: grey;
   border: 1px solid white;
@@ -214,14 +218,14 @@ iframe {
 @media only screen and (max-width: 600px) {
   #dot2 {
     position:absolute;
-    top: 88%;
+    top: 5%;
     left: 50%;
   }
 }
 
 #dot3 {
   position:absolute;
-  top: 93%;
+  top: 3%;
   left: 55%;
   background-color: gray;
   border: 1px solid white;
@@ -232,7 +236,7 @@ iframe {
 @media only screen and (max-width: 600px) {
   #dot3 {
     position:absolute;
-    top: 88%;
+    top: 5%;
     left: 60%;
   }
 }
@@ -256,6 +260,10 @@ iframe {
       padding: 10px 0px 0px 0px;
       }
   }
+
+#text-container > p {
+  line-height: 2;
+}   
 
 #nav-bar {
   /* top, right, bottom, left  */
@@ -288,7 +296,8 @@ iframe {
   padding: 20px 100px 20px 100px;
   width: 80%;
   border-left: 1px dotted black; 
-  height: auto; 
+  min-height: 100%; 
+ 
 }
 
 
@@ -435,8 +444,7 @@ iframe {
 }
 
 .dropdown-content a:hover {
-  border: 1px solid white; 
-  border-radius: 5px;
+  border-radius: 5px; 
   font-size: 23px;
 }
 
@@ -476,27 +484,24 @@ iframe {
 .dropdown-content {
   display: none;
   position: absolute;
-  background-color:rgb(59, 56, 56);
-  border-radius: 15px;
+  background-color:rgb(71, 67, 67); 
+  border-radius: 10px;
   min-width: 100px;
-  padding: 0px 0px 5px 10px;
-  margin: 0px;
-   /* z-index: 1;   */
-  opacity: 0.9;
+  padding: 0px 10px 2px 10px; 
 }
 
 .dropdown-content a {
   width: 80%;
   color:white;
-  padding: 2px 2px;
+  /* padding: 2px 2px; */
   text-decoration: none;
   text-shadow: none;
-  display: block;
-  margin: 10px 3px 10px 3px;
+  display: block;  
 }
 
 .dropdown-content a:hover {
   background-color: rgb(102, 102, 102);
+  border: 1px solid white;
   font-size: 23px; 
 }
 

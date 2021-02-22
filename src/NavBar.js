@@ -27,8 +27,8 @@ class NavBar extends Component {
             this.setState({
                 [style]: {
                     fontSize: "23px", 
-                    backgroundColor: "rgb(212, 169, 25)", 
-                    border: "1px solid white", 
+                    backgroundColor: "rgb(224, 182, 43)", 
+                    border: "1px solid black", 
                     borderRadius: "5px"}   
             }) 
         } 

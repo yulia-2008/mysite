@@ -7,12 +7,12 @@ import Pic3 from './Pictures/Pic3.jpg';
 class About extends Component {
     state={
         photo: Pic1,
-        dot1Style: {backgroundColor: "white", border: "1px solid lightgrey"},
+        dot1Style: {backgroundColor: "white", border: "1px solid grey"},
         dot2Style: {},
         dot3Style: {}
     }
 
-    styleCurrent = {backgroundColor: "white", border: "1px solid lightgrey"}
+    styleCurrent = {backgroundColor: "white", border: "1px solid grey"}
 
     nextPhoto = () => {
         if (this.state.photo === Pic1){
@@ -72,7 +72,7 @@ class About extends Component {
             </div>  
             
             <br></br> 
-            <div id="flex">
+            <div id="flex-about">
                 <div id="picture-container" style={this.props.style}>  
                     <img id="picture" src={this.state.photo} alt="yuliya-pict"></img>
                     <button  id="next"  alt="prev button" onClick={this.nextPhoto} > NEXT </button>                 
@@ -82,14 +82,14 @@ class About extends Component {
                     <button id="dot3" style={this.state.dot3Style}></button>
                 </div>
                 <div id="text-container">
-                    <p id="no-margin">Hello! My name is Yuliya and I am a Full Stack Software Engineer
+                    <p>Hello! My name is Yuliya and I am a Full Stack Software Engineer
                         with a Bachelor’s degree in Law and over five years
                         of customer service and hospitality experience. 
                         A year ago I moved into a new career
                         that will always keep me learning.
                         In October 2020 I have graduated from Flatiron School as a Software Engineer.
+                        I am open to a job, collaboration and startups.
                     </p>  
-                    <p> I am open to a job, collaboration and startups.</p> 
                         
                     <b>Short term goals:</b>
                     <p>• Release my first android application. </p>
@@ -106,7 +106,7 @@ class About extends Component {
                             <p>CSS</p><hr/>
                             <p>Ruby</p><hr/>
                             <p>API</p><hr/>
-                            <p>Ruby on Rails</p>
+                            <p>Ruby-on-Rails</p>
                         </div>
                         <div id="tech-flex-item">
                             <p>JavaScript</p><hr/>
