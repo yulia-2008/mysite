@@ -1,57 +1,59 @@
 import React, { Component } from 'react';
 import Pic1 from './Pictures/Pic1.jpg';
 import Pic2 from './Pictures/Pic2.jpg';
-import Photo2 from './Pictures/Photo2.jpg';
+import Pic3 from './Pictures/Pic3.jpg';
 
 
 class About extends Component {
     state={
         photo: Pic1,
-        dot1Style: {backgroundColor: "white"},
+        dot1Style: {backgroundColor: "white", border: "1px solid lightgrey"},
         dot2Style: {},
         dot3Style: {}
     }
+
+    styleCurrent = {backgroundColor: "white", border: "1px solid lightgrey"}
 
     nextPhoto = () => {
         if (this.state.photo === Pic1){
             this.setState({photo: Pic2, 
                            dot1Style: {},
-                           dot2Style: {backgroundColor: "white"}
+                           dot2Style: this.styleCurrent
             })
         }
         if (this.state.photo === Pic2 ){
-            this.setState({photo: Photo2,
+            this.setState({photo: Pic3,
                             dot2Style: {},
-                            dot3Style: {backgroundColor: "white"}                         
+                            dot3Style: this.styleCurrent                         
             })
         }
-        if (this.state.photo === Photo2 ){
+        if (this.state.photo === Pic3 ){
             this.setState({photo: Pic1,
                             dot3Style: {},
-                            dot1Style: {backgroundColor: "white"}                          
+                            dot1Style: this.styleCurrent                         
             })
         }        
     }
     prevPhoto = () => {
         if (this.state.photo === Pic1){
-            this.setState({photo: Photo2,
+            this.setState({photo: Pic3,
                            dot1Style: {},
-                           dot3Style: {backgroundColor: "white"},
+                           dot3Style: this.styleCurrent,
                            btnStyle: {opacity: "0.6"}
             })
         }
 
-        if (this.state.photo === Photo2){
+        if (this.state.photo === Pic3){
             this.setState({photo: Pic2,
                            dot3Style: {},
-                           dot2Style: {backgroundColor: "white"},
+                           dot2Style: this.styleCurrent,
                            btnStyle: {opacity: "0.6"}
             })
         }
         if (this.state.photo === Pic2 ){
             this.setState({photo: Pic1,
                           dot2Style: {},
-                          dot1Style: {backgroundColor: "white"},
+                          dot1Style: this.styleCurrent,
                           btnStyle: {opacity: "0.6"}         
             })
         }
@@ -82,13 +84,22 @@ class About extends Component {
                 </div>
                 <div id="text-container">
                     <p id="no-margin">Hello! My name is Yuliya and I am a Full Stack Software Engineer
-                            with a Bachelor’s degree in Law and over five years
-                            of customer service and hospitality experience. 
-                            A year ago I moved into a new career
-                            that will always keep me learning.
-                            In October 2020 I have graduated from Flatiron School as a Software Engineer.
-                             I am open to a job, collaboration and startups.</p> 
-
+                        with a Bachelor’s degree in Law and over five years
+                        of customer service and hospitality experience. 
+                        A year ago I moved into a new career
+                        that will always keep me learning.
+                        In October 2020 I have graduated from Flatiron School as a Software Engineer.
+                    </p>  
+                    <p> I am open to a job, collaboration and startups.</p> 
+                        
+                    <b>Short term goals:</b>
+                    <p>• Release my first android aplication. </p>
+                    <b>Long term goals:</b>
+                    <p>• Develop mobile application that serve millions of users.</p>
+                    <p>• Hike the Appalachian Trail. </p> 
+                    <br></br> 
+                  
+                   
                     <h4 className="center">Tech Stack</h4>
                     <div id="flex-tech-stack">
                         <div id="tech-flex-item">

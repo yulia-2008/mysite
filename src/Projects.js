@@ -8,7 +8,7 @@ class Projects extends Component {
                     <h1>Projects</h1>
                     <p> Currently I am working on a new project (Android Application)
                         and plan to publish it on Play Store.
-                         Demo is coming soon, come back to see it.</p>
+                        Demo is coming soon, come back to see it.</p>
                 <hr/>
                 </div> 
                 <br></br> 
