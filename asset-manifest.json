@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.1c369a39.chunk.css",
-    "main.js": "/static/js/main.58ff95bf.chunk.js",
-    "main.js.map": "/static/js/main.58ff95bf.chunk.js.map",
+    "main.js": "/static/js/main.13aeb7e3.chunk.js",
+    "main.js.map": "/static/js/main.13aeb7e3.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.e2dcb388.js",
     "runtime-main.js.map": "/static/js/runtime-main.e2dcb388.js.map",
     "static/js/2.abb9115f.chunk.js": "/static/js/2.abb9115f.chunk.js",
@@ -19,9 +19,9 @@
     "static/media/Heroku.77998fdd.jpg": "/static/media/Heroku.77998fdd.jpg",
     "static/media/LinkedInLogo.a29f1b11.png": "/static/media/LinkedInLogo.a29f1b11.png",
     "static/media/PGAdmin.f6c11166.jpg": "/static/media/PGAdmin.f6c11166.jpg",
-    "static/media/Photo2.7b28bc7d.jpg": "/static/media/Photo2.7b28bc7d.jpg",
     "static/media/Pic1.81be952c.jpg": "/static/media/Pic1.81be952c.jpg",
     "static/media/Pic2.61133a3e.jpg": "/static/media/Pic2.61133a3e.jpg",
+    "static/media/Pic3.e6ae0cf3.jpg": "/static/media/Pic3.e6ae0cf3.jpg",
     "static/media/Rails.42896fb7.jpeg": "/static/media/Rails.42896fb7.jpeg",
     "static/media/Star.a0be86cf.jpg": "/static/media/Star.a0be86cf.jpg",
     "static/media/User.2f8f6c36.jpeg": "/static/media/User.2f8f6c36.jpeg",
@@ -31,6 +31,6 @@
     "static/js/runtime-main.e2dcb388.js",
     "static/js/2.abb9115f.chunk.js",
     "static/css/main.1c369a39.chunk.css",
-    "static/js/main.58ff95bf.chunk.js"
+    "static/js/main.13aeb7e3.chunk.js"
   ]
 }
