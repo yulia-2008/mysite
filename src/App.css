@@ -85,12 +85,14 @@ iframe {
 }
 #flex-about {
   display: flex;
+  margin-top: 20px;
 }
  
 @media only screen and (max-width: 600px) {
   #flex-about {
     display: block;
     align-items: center;
+    margin-top: 0px;
   }
 }
 

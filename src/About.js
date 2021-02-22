@@ -71,7 +71,6 @@ class About extends Component {
             <hr id="width-100"/>
             </div>  
             
-            <br></br> 
             <div id="flex-about">
                 <div id="picture-container" style={this.props.style}>  
                     <img id="picture" src={this.state.photo} alt="yuliya-pict"></img>
