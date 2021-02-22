@@ -22,7 +22,6 @@ class NavBar extends Component {
                 projectsStyle: {},
                 resumeStyle: {},
                 blogStyle: {},
-                contactStyle: {} 
             })
             this.setState({
                 [style]: {
@@ -47,11 +46,6 @@ class NavBar extends Component {
             this.setState({dropdownStyle: {} })
     }
 
-    changeZIndex = () => {
-        this.props.style()
-    }
-
-
 
     render() {
         return (          
@@ -64,7 +58,7 @@ class NavBar extends Component {
                     <br></br> <br></br>
                     
                     <div class="dropdown">
-                        <img class="dropbtn" src={Button} onMouseOver={this.resetStyle} onMouseOut={this.changeZIndex} ></img>
+                        <img class="dropbtn" src={Button} onMouseOver={this.resetStyle} ></img>
                         <div class="dropdown-content" style={this.state.dropdownStyle} > 
                             
                                 <Link  to='/'   style={this.state.aboutStyle}

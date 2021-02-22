@@ -73,8 +73,7 @@ class About extends Component {
             
             <br></br> 
             <div id="flex">
-                <div id="picture-container" style={this.props.style}> 
-              
+                <div id="picture-container" style={this.props.style}>  
                     <img id="picture" src={this.state.photo} alt="yuliya-pict"></img>
                     <button  id="next"  alt="prev button" onClick={this.nextPhoto} > NEXT </button>                 
                     <button  id="prev"  alt="prev button" onClick={this.prevPhoto} > PREV </button>
