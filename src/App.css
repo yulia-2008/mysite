@@ -31,6 +31,14 @@ a {
   /* color: rgb(251, 198, 30); */
 }
 
+@media only screen and (max-width: 600px) {
+  a {
+    color: rgb(74, 149, 219);
+    text-decoration-color:rgb(74, 149, 219);
+    text-shadow: 1px 1px lightgrey;
+  }
+}
+
 iframe {
   width: 250px;
 }
@@ -483,8 +491,9 @@ iframe {
 .dropdown-content a {
   width: 80%;
   color:white;
-  padding: 1px 1px;
+  padding: 2px 2px;
   text-decoration: none;
+  text-shadow: none;
   display: block;
   margin: 10px 3px 10px 3px;
 }
