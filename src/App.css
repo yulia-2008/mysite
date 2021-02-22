@@ -298,7 +298,7 @@ iframe {
     width: 80%;
     height: auto;
     margin: auto;
-    /* border: none; */
+    border: none; 
   }  
 }
 
