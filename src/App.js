@@ -18,7 +18,7 @@ class App extends React.Component {
     <>
         <HashRouter hashType="noslash">
             <div id="flex">
-              <NavBar style={this.pictureStyle}/>
+              <NavBar />
               <Route exact path = '/' component={About} />
               <Route exact path = '/projects' component={Projects} />
               <Route exact path = '/blog' component={Blog} />

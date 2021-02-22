@@ -19,7 +19,7 @@ class Contact extends Component {
                     </a>
                     <a href="https://www.linkedin.com/in/yuliya-yurkevich-b82a591b8/">
                         <img  className="logo" src={LinkedInLogo}></img>
-                    </a>                   
+                    </a>  
                 </div>   
             </div>
         );
