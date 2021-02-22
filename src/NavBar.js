@@ -22,6 +22,7 @@ class NavBar extends Component {
                 projectsStyle: {},
                 resumeStyle: {},
                 blogStyle: {},
+                contactStyle: {}
             })
             this.setState({
                 [style]: {
