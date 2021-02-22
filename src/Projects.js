@@ -13,14 +13,12 @@ class Projects extends Component {
                 </div> 
                 <br></br> 
                  <div id="width"> 
-                    <b id="medium">NYCABLE</b> <br></br>
-                    <br></br>
-                    <p id='medium'> <a href="http://www.nycable.net/"> www.nycable.net</a> </p>
-                    <br></br>
+                    <b id="medium">NYCABLE</b> <br></br>                   
+                    <p> <a href="http://www.nycable.net/"> www.nycable.net</a> </p>
                     <p> GitHub: <a href="https://github.com/yulia-2008/nycable_frontend">Frontend</a> &nbsp;
                         <a href="https://github.com/yulia-2008/nycable_backend">Backend</a>
                     </p>
-                    <br></br> 
+                    
                     <p>An Info-Portal about all internet & TV
                         providers in NYC, payment plans,
                         latest deals, areas of coverage and available technicians. </p>
@@ -67,12 +65,11 @@ class Projects extends Component {
                     <hr></hr> 
 
                     <b id="medium">MY KITCHEN</b>
-                    <br></br> <br></br>
+                    <br></br> 
                     <p>GitHub: &nbsp;
                         <a href="https://github.com/yulia-2008/my-kitchen-frontend">Frontend</a> &nbsp;
                         <a href="https://github.com/yulia-2008/MyKitchen-backend">Backend</a>
                     </p>
-                    <br></br>
                     <p>Cooking Application that allows you to search and celect
                         ingredients and the app will
                         find the recipes for you to cook.
@@ -101,12 +98,11 @@ class Projects extends Component {
                     <hr></hr>
 
                     <b id="medium">PONDER</b>
-                    <br></br> <br></br>
+                    <br></br> 
                     <p>GitHub: &nbsp;
                         <a href="https://github.com/yulia-2008/ponder_frontend">Frontend</a> &nbsp;
                         <a href="https://github.com/yulia-2008/ponder_backend">Backend</a>
                     </p>
-                    <br></br>
                     <p>Single page Park App. 
                         App was built during Flatiron School
                         study in a collaboration with Taevon Jordan. </p>    

@@ -89,8 +89,7 @@ class About extends Component {
                         that will always keep me learning.
                         In October 2020 I have graduated from Flatiron School as a Software Engineer.
                         I am open to a job, collaboration and startups.
-                    </p>  
-                    <br/>    
+                    </p>     
                     <b>Short term goals:</b>
                     <p>• Release my first android application. </p>
                     <b>Long term goals:</b>
