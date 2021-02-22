@@ -80,8 +80,9 @@ iframe {
 #flex {
   display: flex;
   width: 100%;
-  height: 100%; 
+  height: auto; 
   margin: 0px; 
+  border: 3px solid green;
 }
 
 
@@ -261,7 +262,7 @@ iframe {
   /* top, right, bottom, left  */
   padding: 70px 20px 10px 20px; 
   width: 20%; 
-  min-height: 100%;
+  /* height: 100%; */
   /* height: auto;  */
   text-align: center;
   /* background-color:rgb(71, 67, 67); */
@@ -287,9 +288,8 @@ iframe {
 /* 80% - main, 20 % - navBar */
   padding: 20px 100px 20px 100px;
   width: 80%;
-  /* border-left: 2px dotted black;  */
-  /* border: 3px solid green; */
-  height: auto;; 
+  border-left: 1px dotted black; 
+  height: auto; 
 }
 
 
