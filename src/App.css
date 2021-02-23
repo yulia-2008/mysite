@@ -129,6 +129,7 @@ iframe {
 
 #picture {
   width: 96%;
+  /* height auto make picture same size as picture container */
   height: auto;
   padding: 2px;
   border: 2px solid  rgb(251, 198, 30);
