@@ -86,7 +86,7 @@ class Blog extends Component {
                             Heroku $ pgAdmin
                     </a>
                     <br></br>
-                    <p>In this blog I teach how to to access and manage
+                    <p>In this blog I teach how to access and manage
                         PostgreSQL database after deploying
                         your App to Heroku. </p> <br></br>
                     <p>Jan, 10 2020</p>            
