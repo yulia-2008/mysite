@@ -112,7 +112,7 @@ class Projects extends Component {
                             <iframe  src="https://www.youtube.com/embed/1pHGREsQpdU/"></iframe>
                             <br></br> <br></br>
                             <b id="medium">Features</b>
-                            <p>• Leave/Delete comments.</p>
+                            <p>• Browse parks by choosing US state.</p>
                             <p>• Add likes</p>
                             <p>• Leave/Delete comments.</p>
                             

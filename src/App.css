@@ -93,6 +93,7 @@ iframe {
     display: block;
     align-items: center;
     margin-top: 0px;
+    /* padding-right: 3px; */
   }
 }
 
@@ -127,25 +128,25 @@ iframe {
 }
 
 #picture {
-  width: 100%;
+  width: 96%;
   height: auto;
   padding: 2px;
-  margin: 3px;
   border: 2px solid  rgb(251, 198, 30);
   border-radius: 7%;
 }
 
 #picture-container{
   width: 50%;
-  position: relative;
+  height: fill;
+  position: relative; 
 }
 
 
 #next {
   position: absolute;
   opacity: 0.6;
-  right: 20%;
-  top: 2%;
+  right: 23%;
+  top: 91%;
   padding: 7px 10px 5px 10px;
   background-color: white ;
   border: 1px solid black ;
@@ -156,7 +157,7 @@ iframe {
 @media only screen and (max-width: 600px) {
   #next {   
     right: 7%;
-    top: 3%;   
+    top: 85%;   
   }
 }
 
@@ -171,8 +172,8 @@ iframe {
 #prev {
   position: absolute;
   opacity: 0.6;
-  left: 24%;
-  top: 2%;
+  left: 20%;
+  top: 91%;
   padding: 7px 10px 5px 10px;
   background-color: white ;
   border: 1px solid black ;
@@ -184,15 +185,15 @@ iframe {
 
 @media only screen and (max-width: 600px) {
   #prev {   
-    left: 10%;
-    top: 3%;   
+    left: 8%;
+    top: 85%;   
   }
 }
 
 #dot1 {
   position:absolute;
-  top: 3%;
-  left: 45%;
+  top: 92%;
+  left: 42%;
   background-color: gray;
   border: 1px solid white;
   border-radius: 50%;
@@ -202,15 +203,15 @@ iframe {
 @media only screen and (max-width: 600px) {
   #dot1 {
     position:absolute;
-    top: 5%;
+    top: 88%;
     left: 40%;
   }
 }
 
 #dot2 {
   position:absolute;
-  top: 3%;
-  left: 50%;
+  top: 92%;
+  left: 47%;
   background-color: grey;
   border: 1px solid white;
   border-radius: 50%; 
@@ -220,15 +221,15 @@ iframe {
 @media only screen and (max-width: 600px) {
   #dot2 {
     position:absolute;
-    top: 5%;
-    left: 50%;
+    top: 88%;
+    left: 48%;
   }
 }
 
 #dot3 {
   position:absolute;
-  top: 3%;
-  left: 55%;
+  top: 92%;
+  left: 53%;
   background-color: gray;
   border: 1px solid white;
   border-radius: 50%;
@@ -238,8 +239,8 @@ iframe {
 @media only screen and (max-width: 600px) {
   #dot3 {
     position:absolute;
-    top: 5%;
-    left: 60%;
+    top: 88%;
+    left: 56%;
   }
 }
 
@@ -261,11 +262,7 @@ iframe {
       width: 100%;
       padding: 10px 0px 0px 0px;
       }
-  }
-
-#text-container > p {
-  line-height: 1.7;
-}   
+  }   
 
 #nav-bar {
   /* top, right, bottom, left  */
@@ -366,14 +363,15 @@ iframe {
 
 #avatar {
   margin: 15px;
-  border: 2px solid #ddd;
+  border: 1px solid grey; 
   border-radius: 50%;
-  padding: 5px;
+  padding: 3px;
   width: 150px;
   height: auto;
 }
 @media only screen and (max-width: 600px) {
   #avatar { 
+    border: 1px solid white;
     border-radius: 5px;
     width: 60px;
     padding: 3px;
