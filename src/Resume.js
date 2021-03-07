@@ -13,7 +13,7 @@ class Resume extends Component {
                         <div id="flex-resume">
                             <div id="flex-item">
                                 <p> (1) 347-357-5454 </p> 
-                                <p> juliana.ny@gmail.com</p>
+                                <p> juliana.ny2008@gmail.com</p>
                                 <p>Brooklyn, NY 11223 </p>
                             </div>
                             <div>
