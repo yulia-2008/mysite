@@ -89,7 +89,7 @@ class Blog extends Component {
                     <p>In this blog I teach how to access and manage
                         PostgreSQL database after deploying
                         your App to Heroku. </p> <br></br>
-                    <p>Jan, 10 2020</p>            
+                    <p>Jan, 10 2020</p> <br/> <br/> 
                 </div>
                     
                 <div id="grid-item">
