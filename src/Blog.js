@@ -5,7 +5,7 @@ import Gitignore from './Pictures/Gitignore.jpg';
 import Heroku from './Pictures/Heroku.jpg';
 import User from './Pictures/User.jpeg';
 import PGAdmin from './Pictures/PGAdmin.jpg';
-import Async from './Pictures/Async.png'
+import Async from './Pictures/Async.jpg'
 
 class Blog extends Component {
     render() {
@@ -89,7 +89,7 @@ class Blog extends Component {
                     <br></br>
                     <p>In this blog I teach how to access and manage
                         PostgreSQL database after deploying
-                        your App to Heroku. </p> <br></br>
+                        your App to Heroku. Setting up your pgAdmin to your Heroku App.</p> <br></br>
                     <p>Jan, 10 2020</p> <br/> <br/> 
                 </div>
                     
@@ -112,16 +112,16 @@ class Blog extends Component {
                     <a href="https://juliana-ny2008.medium.com/asyncstorage-3be70e2b31a7" target="_blank">
                         <img id="blog-pic" src={Async}></img>   
                     </a> <br></br>
-                    <a href="https://juliana-ny2008.medium.com/how-to-remove-credentials-from-github-ddfd7238fdfd" target="_blank">
+                    <a href="https://juliana-ny2008.medium.com/asyncstorage-3be70e2b31a7" target="_blank">
                             Async Storage.
                     </a>
                     <br></br>
-                    <p>AsyncStorage is React Native’s storage system.
-                        Unlike LocalStorage, AsyncStorage is asynchronous
+                    <p>Async Storage is React Native’s storage system.
+                        Unlike Local Storage, Async Storage is asynchronous
                         so it always returns a Promise object.
-                        I reacomend this titorial wich teaches how to use AsyncStorage
-                        and how to retrieve the data from Promise object.</p> <br></br>
-                    <p>Feb, 7, 2020</p>            
+                        I recomend this titorial for learning AsyncStorage
+                        and how to retrieve data from the Promise object.</p> <br></br>
+                    <p>Mar, 15, 2021</p>            
                 </div>
                                 
             </div>               
