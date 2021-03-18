@@ -4,7 +4,8 @@ import Star from './Pictures/Star.jpg';
 import Gitignore from './Pictures/Gitignore.jpg';
 import Heroku from './Pictures/Heroku.jpg';
 import User from './Pictures/User.jpeg';
-import PGAdmin from './Pictures/PGAdmin.jpg'
+import PGAdmin from './Pictures/PGAdmin.jpg';
+import Async from './Pictures/Async.png'
 
 class Blog extends Component {
     render() {
@@ -104,6 +105,22 @@ class Blog extends Component {
                            pushed file that has credentials or keys
                            to GitHub? Here you will find a great
                            solution to fix it.</p> <br></br>
+                    <p>Feb, 7, 2020</p>            
+                </div>
+
+                <div id="grid-item">
+                    <a href="https://juliana-ny2008.medium.com/asyncstorage-3be70e2b31a7" target="_blank">
+                        <img id="blog-pic" src={Async}></img>   
+                    </a> <br></br>
+                    <a href="https://juliana-ny2008.medium.com/how-to-remove-credentials-from-github-ddfd7238fdfd" target="_blank">
+                            Async Storage.
+                    </a>
+                    <br></br>
+                    <p>AsyncStorage is React Native’s storage system.
+                        Unlike LocalStorage, AsyncStorage is asynchronous
+                        so it always returns a Promise object.
+                        I reacomend this titorial wich teaches how to use AsyncStorage
+                        and how to retrieve the data from Promise object.</p> <br></br>
                     <p>Feb, 7, 2020</p>            
                 </div>
                                 
