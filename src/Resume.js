@@ -59,22 +59,33 @@ class Resume extends Component {
                     </div>
   
                     <h3 className="center">Technical Projects</h3>
+ 
+                        <b><a href="https://play.google.com/store/apps/details?id=com.yulia_123.Memo"> MEMO</a> &nbsp; | &nbsp;
+                            <a href="https://www.youtube.com/watch?v=HrGcXUrC4jM">Demo</a>
+                        </b>
+
+                        <br></br> <br></br>
+                        <p>• A note organizer. </p>
+                        <p>• Built with React Native and AsyncStorage.</p>
+                        <p>• Released on Google Play Store.</p>                 
+                        <br></br>
+
                         <b><a href="http://www.nycable.net/"> NYCABLE</a> &nbsp; | &nbsp;
-                            <a href="https://www.youtube.com/watch?v=ST63TI827O8">DEMO</a>
+                            <a href="https://www.youtube.com/watch?v=ST63TI827O8">Demo</a>
                         </b>
                        
                         <br></br> <br></br>
                         <p>• An Info-Portal about all internet & TV providers in NYC, 
                             including payment plans, latest deals and more.</p>
-                        <p>• Built with React.js, Ruby on Rails, PostgreSQL</p>
+                        <p>•&nbsp;  Built with React.js, Ruby on Rails, PostgreSQL.</p>
                         <p>• Technologies used: Nested React Routes, 
                                     Cloudinary Storage, Material UI, 
-                                    Browser Local Storage, JWT, Serializer, CSS</p>
-                        <p>• Hosted on Heroku, Google DNS</p>                 
+                                    Browser Local Storage, JWT, Serializer, CSS.</p>
+                        <p>• &nbsp; Hosted on Heroku, Google DNS.</p>                 
                         <br></br>
 
                         <b> MY KITHEN  &nbsp; | &nbsp; 
-                            <a href="https://www.youtube.com/watch?v=1pHGREsQpdU">DEMO</a>
+                            <a href="https://www.youtube.com/watch?v=1pHGREsQpdU">Demo</a>
                         </b> 
                         <br></br> <br></br>
                         <p> • Recipes App. Users can add recipes, 
@@ -85,7 +96,7 @@ class Resume extends Component {
                         <br></br>
 
                         <b>PONDER  &nbsp; | &nbsp;
-                            <a href="https://www.youtube.com/watch?v=1pHGREsQpdU">DEMO</a>
+                            <a href="https://www.youtube.com/watch?v=1pHGREsQpdU">Demo</a>
                         </b>
                         <br></br> <br></br>
                         <p>• Single page Park Aplication. 

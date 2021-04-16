@@ -90,7 +90,7 @@ class About extends Component {
                         I am open to a job, collaboration and startups.
                     </p>     
                     <b>Short term goals:</b>
-                    <p>• Release my first android application. </p>
+                    <p>• Release my second android application. </p>
                     <b>Long term goals:</b>
                     <p>• Develop mobile application that serve millions of users.</p>
                     <p>• Hike the Appalachian Trail. </p> 

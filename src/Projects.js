@@ -6,13 +6,37 @@ class Projects extends Component {
             <div id="main-container">
                 <div id="header">
                     <h1>Projects</h1>
-                    <p> Currently I am working on a new project (Android Application)
-                        and plan to publish it on Play Store.
+                    <p> Currently I am working on my second android application.
                         Demo is coming soon, come back to see it.</p>
                 <hr/>
                 </div> 
                 <br></br> 
                  <div id="width"> 
+
+                    <b id="medium">MEMO</b> <br></br> 
+                    <p> <a href="https://play.google.com/store/apps/details?id=com.yulia_123.Memo">Memo App on Google Play Store</a> </p>
+                    <a href="https://github.com/yulia-2008/memo">GitHub</a>
+                   
+                    <p> A note organizer. Write, edit or delete notes. Change themes.</p>
+                    <br></br> 
+
+                    <div id="flex">
+                        <div id="flex-item">
+                            <iframe  src="https://www.youtube.com/embed/HrGcXUrC4jM"></iframe>
+                            <br></br> <br></br>
+                            <b id="medium">Built with</b>
+                            <p>• React Native.</p>
+                            <p>• Used AsyncStorage for storing data on the user device.</p>
+                            <p>• Integrated React Hooks for managing a component’s state and handle side-effects.</p>
+                            <p>• Used Expo CLI for simplifying the development.</p>
+                            <p>• Integrated EXPO icons.</p>
+                            <p>• Used Android Studio Emulator for development and testing.</p>
+                            <p>• Released on Google Play Store.</p>
+                        </div>
+                    </div>
+
+                    <hr></hr> 
+
                     <b id="medium">NYCABLE</b> <br></br>                   
                     <p> <a href="http://www.nycable.net/"> www.nycable.net</a> </p>
                     <p> GitHub: <a href="https://github.com/yulia-2008/nycable_frontend">Frontend</a> &nbsp;
