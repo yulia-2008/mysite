@@ -61,7 +61,7 @@ class Resume extends Component {
                     <h3 className="center">Technical Projects</h3>
  
                         <b><a href="https://play.google.com/store/apps/details?id=com.yulia_123.Memo"> MEMO</a> &nbsp; | &nbsp;
-                            <a href="https://www.youtube.com/watch?v=l1ajhwl3z9w">Demo</a>
+                            <a href="https://www.youtube.com/watch?v=KW6Wth6rBF0">Demo</a>
                         </b>
 
                         <br></br> <br></br>

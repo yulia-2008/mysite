@@ -22,7 +22,7 @@ class Projects extends Component {
 
                     <div id="flex">
                         <div id="flex-item">
-                            <iframe  src="https://www.youtube.com/embed/l1ajhwl3z9w/"></iframe>
+                            <iframe  src="https://www.youtube.com/embed/KW6Wth6rBF0/"></iframe>
                             <br></br> <br></br>
                             <b id="medium">Built with</b>
                             <p>• React Native.</p>
@@ -94,7 +94,7 @@ class Projects extends Component {
                         <a href="https://github.com/yulia-2008/my-kitchen-frontend">Frontend</a> &nbsp;
                         <a href="https://github.com/yulia-2008/MyKitchen-backend">Backend</a>
                     </p>
-                    <p>Cooking Application that allows you to search and celect
+                    <p>Cooking Application that allows you to search and select
                         ingredients and the app will
                         find the recipes for you to cook.
                         App was built during Flatiron School
