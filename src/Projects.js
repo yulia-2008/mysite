@@ -6,8 +6,6 @@ class Projects extends Component {
             <div id="main-container">
                 <div id="header">
                     <h1>Projects</h1>
-                    <p> Currently I am working on my second android application.
-                        Demo is coming soon, come back to see it.</p>
                 <hr/>
                 </div> 
                 <br></br> 

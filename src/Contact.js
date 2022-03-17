@@ -16,10 +16,7 @@ class Contact extends Component {
                     <h3>+1(347)3575454</h3>  
                     <a href="https://github.com/yulia-2008">
                         <img className="logo" src={GitHubLogo}></img>
-                    </a>
-                    <a href="https://www.linkedin.com/in/yuliya-yurkevich-b82a591b8/">
-                        <img  className="logo" src={LinkedInLogo}></img>
-                    </a>  
+                    </a> 
                 </div>   
             </div>
         );

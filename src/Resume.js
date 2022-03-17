@@ -12,13 +12,12 @@ class Resume extends Component {
                         <p className="center">Fullstack Software Engineer</p>
                         <div id="flex-resume">
                             <div id="flex-item">
-                                <p> (1) 347-357-5454 </p> 
+                                <p> +1 347-357-5454 </p> 
                                 <p> juliana.ny2008@gmail.com</p>
-                                <p>Brooklyn, NY 11223 </p>
+                                <p> Queens, NY 11223 </p>
                             </div>
                             <div>
                                 <p> <a href="https://github.com/yulia-2008"> GitHub</a></p>
-                                <p> <a href="https://www.linkedin.com/in/yuliya-yurkevich-b82a591b8/"> LinkedIn</a></p>
                                 <p> <a href="https://juliana-ny2008.medium.com/" target="_blank"> Blog</a> </p>  
                             </div>
                         </div>

@@ -84,7 +84,7 @@ class About extends Component {
                     <p>Hello! My name is Yuliya and I am a Full Stack Software Engineer
                         with a Bachelor’s degree in Law and over five years
                         of customer service and hospitality experience. 
-                        A year ago I moved into a new career
+                        In 2020 I moved into a new career
                         that will always keep me learning.
                         In October 2020 I have graduated from Flatiron School as a Software Engineer.
                         I am open to a job, collaboration and startups.
@@ -111,7 +111,8 @@ class About extends Component {
                             <p>React.js</p><hr/>
                             <p>Material UI</p><hr/>
                             <p>React Router</p><hr/>                     
-                            <p>React Native</p>
+                            <p>React Native</p><hr/>
+                            <p>S3</p>
                           
                         </div>
                         <div id="tech-flex-item">
