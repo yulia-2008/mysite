@@ -83,8 +83,9 @@ class Resume extends Component {
                         <p>• &nbsp; Hosted on Heroku, Google DNS.</p>                 
                         <br></br>
 
-                        <b> MY KITHEN  
+                        <b> MY KITHEN  &nbsp; | &nbsp; 
                             {/* <a href="https://www.youtube.com/watch?v=1pHGREsQpdU">Demo</a> */}
+                            <a href="https://github.com/yulia-2008/my-kitchen-frontend">GitHub</a> 
                         </b> 
                         <br></br> <br></br>
                         <p> • Recipes App. Users can add recipes, 
@@ -94,8 +95,9 @@ class Resume extends Component {
                         <p>• Ruby on Rails, PostgresSQL for Backend </p>   
                         <br></br>
 
-                        <b>PONDER  
+                        <b>PONDER  &nbsp; | &nbsp; 
                             {/* <a href="https://www.youtube.com/watch?v=1pHGREsQpdU">Demo</a> */}
+                            <a href="https://github.com/yulia-2008/ponder_frontend">GitHub</a>
                         </b>
                         <br></br> <br></br>
                         <p>• Single page Park Aplication. 
