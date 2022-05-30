@@ -12,7 +12,6 @@ class Contact extends Component {
                 </div>  
                 <div className="center">                
                     <h3>juliana.ny2008@gmail.com</h3> 
-                    <h3>+1(347)3575454</h3>  
                     <a href="https://github.com/yulia-2008">
                         <img className="logo" src={GitHubLogo}></img>
                     </a> 

@@ -78,8 +78,9 @@ class About extends Component {
                     <button  id="prev"  alt="prev button" onClick={this.prevPhoto} > PREV </button>
                     <button id="dot1" style={this.state.dot1Style}></button>
                     <button id="dot2" style={this.state.dot2Style}></button>
-                    <button id="dot3" style={this.state.dot3Style}></button>
+                    <button id="dot3" style={this.state.dot3Style}></button>   
                 </div>
+                        
                 <div id="text-container">
                     <p>Hello! My name is Yuliya and I am a Full Stack Software Engineer
                         with a Bachelor’s degree in Law and over five years

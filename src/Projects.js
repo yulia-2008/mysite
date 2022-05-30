@@ -20,7 +20,7 @@ class Projects extends Component {
 
                     <div id="flex">
                         <div id="flex-item">
-                            <iframe  src="https://www.youtube.com/embed/KW6Wth6rBF0/"></iframe>
+                            {/* <iframe  src="https://www.youtube.com/embed/KW6Wth6rBF0/"></iframe> */}
                             <br></br> <br></br>
                             <b id="medium">Built with</b>
                             <p>• React Native.</p>
@@ -47,7 +47,7 @@ class Projects extends Component {
                         <br></br> 
                     <div id="flex">
                         <div id="flex-item">
-                            <iframe  src="https://www.youtube.com/embed/ST63TI827O8/"></iframe>
+                            {/* <iframe  src="https://www.youtube.com/embed/ST63TI827O8/"></iframe> */}
                             <br></br> <br></br>
                             <b id="medium">Features</b>
                             <p>• Creating an account (as a client or technician).</p>
@@ -100,7 +100,7 @@ class Projects extends Component {
                     <br></br>
                     <div id="flex">
                         <div id="flex-item">
-                            <iframe  src="https://www.youtube.com/embed/uw5Jd1ter0g/"></iframe>
+                            {/* <iframe  src="https://www.youtube.com/embed/uw5Jd1ter0g/"></iframe> */}
                             <br></br> <br></br>
                             <b id="medium">Features</b>
                             <p>• Users can search and select ingredients.</p>
@@ -131,7 +131,7 @@ class Projects extends Component {
                     <br></br>
                     <div id="flex">
                         <div id="flex-item">
-                            <iframe  src="https://www.youtube.com/embed/1pHGREsQpdU/"></iframe>
+                            {/* <iframe  src="https://www.youtube.com/embed/1pHGREsQpdU/"></iframe> */}
                             <br></br> <br></br>
                             <b id="medium">Features</b>
                             <p>• Browse parks by choosing US state.</p>

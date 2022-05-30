@@ -14,7 +14,7 @@ class Resume extends Component {
                             <div id="flex-item">
                                 <p> +1 347-357-5454 </p> 
                                 <p> juliana.ny2008@gmail.com</p>
-                                <p> Queens, NY 11223 </p>
+                                <p> Flushing, NY 11354 </p>
                             </div>
                             <div>
                                 <p> <a href="https://github.com/yulia-2008"> GitHub</a></p>
@@ -59,8 +59,8 @@ class Resume extends Component {
   
                     <h3 className="center">Technical Projects</h3>
  
-                        <b><a href="https://play.google.com/store/apps/details?id=com.yulia_123.Memo"> MEMO</a> &nbsp; | &nbsp;
-                            <a href="https://www.youtube.com/watch?v=KW6Wth6rBF0">Demo</a>
+                        <b><a href="https://play.google.com/store/apps/details?id=com.yulia_123.Memo"> MEMO</a> 
+                            {/* <a href="https://www.youtube.com/watch?v=KW6Wth6rBF0">Demo</a> */}
                         </b>
 
                         <br></br> <br></br>
@@ -69,8 +69,8 @@ class Resume extends Component {
                         <p>• Released on Google Play Store.</p>                 
                         <br></br>
 
-                        <b><a href="http://www.nycable.net/"> NYCABLE</a> &nbsp; | &nbsp;
-                            <a href="https://www.youtube.com/watch?v=ST63TI827O8">Demo</a>
+                        <b><a href="http://www.nycable.net/"> NYCABLE</a> 
+                            {/* <a href="https://www.youtube.com/watch?v=ST63TI827O8">Demo</a> */}
                         </b>
                        
                         <br></br> <br></br>
@@ -83,8 +83,8 @@ class Resume extends Component {
                         <p>• &nbsp; Hosted on Heroku, Google DNS.</p>                 
                         <br></br>
 
-                        <b> MY KITHEN  &nbsp; | &nbsp; 
-                            <a href="https://www.youtube.com/watch?v=1pHGREsQpdU">Demo</a>
+                        <b> MY KITHEN  
+                            {/* <a href="https://www.youtube.com/watch?v=1pHGREsQpdU">Demo</a> */}
                         </b> 
                         <br></br> <br></br>
                         <p> • Recipes App. Users can add recipes, 
@@ -94,8 +94,8 @@ class Resume extends Component {
                         <p>• Ruby on Rails, PostgresSQL for Backend </p>   
                         <br></br>
 
-                        <b>PONDER  &nbsp; | &nbsp;
-                            <a href="https://www.youtube.com/watch?v=1pHGREsQpdU">Demo</a>
+                        <b>PONDER  
+                            {/* <a href="https://www.youtube.com/watch?v=1pHGREsQpdU">Demo</a> */}
                         </b>
                         <br></br> <br></br>
                         <p>• Single page Park Aplication. 
