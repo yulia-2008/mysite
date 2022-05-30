@@ -1,4 +1,8 @@
 import React, { Component } from 'react';
+import Memo from './Pictures/Memo.gif';
+import Nycable from './Pictures/Nycable.gif';
+import Kitchen from './Pictures/Kitchen.gif';
+import Ponder from './Pictures/Ponder.gif';
 
 class Projects extends Component {
     render() {
@@ -21,6 +25,8 @@ class Projects extends Component {
                     <div id="flex">
                         <div id="flex-item">
                             {/* <iframe  src="https://www.youtube.com/embed/KW6Wth6rBF0/"></iframe> */}
+                            <img id="memo-gif" src={Memo} alt="memo-app"></img> 
+                            <br></br> <br></br>
                             <b id="medium">Built with</b>
                             <p>• React Native.</p>
                             <p>• Used AsyncStorage for storing data on the user device.</p>
@@ -47,6 +53,8 @@ class Projects extends Component {
                     <div id="flex">
                         <div id="flex-item">
                             {/* <iframe  src="https://www.youtube.com/embed/ST63TI827O8/"></iframe> */}
+                            <img id="gifs" src={Nycable} alt="nycable-app"></img> 
+                            <br></br> <br></br>
                             <b id="medium">Features</b>
                             <p>• Creating an account (as a client or technician).</p>
                             <p>• Logging in/Logging out.</p>
@@ -99,6 +107,8 @@ class Projects extends Component {
                     <div id="flex">
                         <div id="flex-item">
                             {/* <iframe  src="https://www.youtube.com/embed/uw5Jd1ter0g/"></iframe> */}
+                            <img id="gifs" src={Kitchen} alt="kitchen-app"></img> 
+                            <br></br> <br></br>
                             <b id="medium">Features</b>
                             <p>• Users can search and select ingredients.</p>
                             <p>• Find recipes with selected ingredients.</p>
@@ -129,6 +139,8 @@ class Projects extends Component {
                     <div id="flex">
                         <div id="flex-item">
                             {/* <iframe  src="https://www.youtube.com/embed/1pHGREsQpdU/"></iframe> */}
+                            <img id="gifs" src={Ponder} alt="ponder-app"></img> 
+                            <br></br> <br></br>
                             <b id="medium">Features</b>
                             <p>• Browse parks by choosing US state.</p>
                             <p>• Add likes</p>

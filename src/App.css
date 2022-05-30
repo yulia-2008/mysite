@@ -141,7 +141,15 @@ iframe {
   height: fill;
   position: relative; 
 }
+#memo-gif {
+  width: 60%;
+  height: auto;
+}
 
+#gifs {
+  width: 100%;
+  height: auto;
+}
 
 #next {
   position: absolute;
