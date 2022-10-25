@@ -41,7 +41,8 @@ class Projects extends Component {
                     <hr></hr> 
 
                     <b id="medium">NYCABLE</b> <br></br>                   
-                    <p> <a href="http://www.nycable.net/"> www.nycable.net</a> </p>
+                    {/* <p> <a href="http://www.nycable.net/"> www.nycable.net</a> </p> */} 
+                    {/* Don't have DNS anymore */}
                     <p> GitHub: <a href="https://github.com/yulia-2008/nycable_frontend">Frontend</a> &nbsp;
                         <a href="https://github.com/yulia-2008/nycable_backend">Backend</a>
                     </p>
@@ -50,12 +51,10 @@ class Projects extends Component {
                         providers in NYC, payment plans,
                         latest deals, areas of coverage and available technicians. </p>
                         <br></br> 
-                    <div id="flex">
-                        <div id="flex-item">
-                            {/* <iframe  src="https://www.youtube.com/embed/ST63TI827O8/"></iframe> */}
-                            <img id="gifs" src={Nycable} alt="nycable-app"></img> 
-                            <br></br> <br></br>
-                            <b id="medium">Features</b>
+                    {/* <iframe  src="https://www.youtube.com/embed/ST63TI827O8/"></iframe> */}    
+                    <img id="gifs" src={Nycable} alt="nycable-app"></img>  
+                    <br></br>  
+                    <b id="medium">Features</b>
                             <p>• Creating an account (as a client or technician).</p>
                             <p>• Logging in/Logging out.</p>
                             <p>• Editing User Profile.</p>
@@ -63,9 +62,10 @@ class Projects extends Component {
                             <p>• Filtered search of technicians (base on city and company).</p>
                             <p>• Rating Internet Provider or Technician.</p>
                             <p>• Writing a review about Internet Provider or Technician</p>
-                        </div>
-                        <div>
-                            <b id="medium">Frontend</b>
+                            <br></br>  
+                    <div id="flex">
+                        <div id="flex-item"> 
+                          <b id="medium">Frontend</b>
                             <p>• Built with React.js</p>
                             <p>• Used Browser Local Storage for making
                                 easier user experience during login process.</p>
@@ -76,20 +76,22 @@ class Projects extends Component {
                             <p>• Styling with CSS. Responsive web design makes
                                 easy navigation on different devices.</p>
                             <p>• Hosted on Heroku, Google DNS.</p> 
-                            <br></br>
+                            <br></br>  
+                        </div>
+                        <div id="flex-item">    
                             <b id="medium">Backend</b>
                             <p>• Built with Ruby on Rails and PostgreSQL database. </p>
                             <p>• Integrated Active Storage and Cloudinary Storage
                                 for uploading and storing users profile pictures.</p>
                             <p>• Models Serializer for rendering necessary data.</p>
                             <p>• Models relationship set up using Polymorphic Association, 
-                            that way one model can belong one OR another model.</p>
+                                that way one model can belong one OR another model.</p>
                             <p>• JWT for securely transmitting information.</p>
                             <p>• Created custom routes help to handles all incoming requests
                                 from the frontend of the app.</p>
                         </div>
                     </div>
-
+                    
                     <hr></hr> 
 
                     <b id="medium">MY KITCHEN</b>
@@ -104,11 +106,11 @@ class Projects extends Component {
                         App was built during Flatiron School
                         study in a collaboration with Roman Opalacz. </p>
                     <br></br>
+                    {/* <iframe  src="https://www.youtube.com/embed/uw5Jd1ter0g/"></iframe> */}
+                    <img id="gifs" src={Kitchen} alt="kitchen-app"></img> 
+                    <br></br> <br></br>
                     <div id="flex">
-                        <div id="flex-item">
-                            {/* <iframe  src="https://www.youtube.com/embed/uw5Jd1ter0g/"></iframe> */}
-                            <img id="gifs" src={Kitchen} alt="kitchen-app"></img> 
-                            <br></br> <br></br>
+                        <div id="flex-item">     
                             <b id="medium">Features</b>
                             <p>• Users can search and select ingredients.</p>
                             <p>• Find recipes with selected ingredients.</p>
@@ -136,11 +138,11 @@ class Projects extends Component {
                         App was built during Flatiron School
                         study in a collaboration with Taevon Jordan. </p>    
                     <br></br>
+                    {/* <iframe  src="https://www.youtube.com/embed/1pHGREsQpdU/"></iframe> */}
+                    <img id="gifs" src={Ponder} alt="ponder-app"></img> 
+                    <br></br> <br></br>
                     <div id="flex">
                         <div id="flex-item">
-                            {/* <iframe  src="https://www.youtube.com/embed/1pHGREsQpdU/"></iframe> */}
-                            <img id="gifs" src={Ponder} alt="ponder-app"></img> 
-                            <br></br> <br></br>
                             <b id="medium">Features</b>
                             <p>• Browse parks by choosing US state.</p>
                             <p>• Add likes</p>
@@ -155,6 +157,7 @@ class Projects extends Component {
                             <p>• Built with Ruby on Rails and PostgreSQL</p>
                         </div>
                     </div>
+                    <br></br> <br></br>
                 </div>
             </div>         
             

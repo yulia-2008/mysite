@@ -105,7 +105,8 @@ class About extends Component {
                             <p>CSS</p><hr/>
                             <p>Ruby</p><hr/>
                             <p>API</p><hr/>
-                            <p>Ruby-on-Rails</p>
+                            <p>Ruby-on-Rails</p><hr/>
+                            <p>Mobile development</p>
                         </div>
                         <div id="tech-flex-item">
                             <p>JavaScript</p><hr/>

@@ -7,21 +7,26 @@ class Resume extends Component {
             <div id="main-container">           
                 <div id="width-70">
                     <div className="center"> 
-                    <br></br> <br></br>
-                        <h3 id="no-margin" >Yuliya Yurkevich</h3>
+                        <br></br> <br></br>
+                        <h3 id="no-margin">Yuliya Yurkevich</h3>
                         <p className="center">Fullstack Software Engineer</p>
-                        <div id="flex-resume">
+                        <p className="center"> +1 347-357-5454 </p> 
+                        <p className="center"> juliana.ny2008@gmail.com</p>
+                        <p className="center"> Flushing, NY 11354 </p> 
+                        
+                        
+
+                         <div id="flex-resume">
                             <div id="flex-item">
-                                <p> +1 347-357-5454 </p> 
-                                <p> juliana.ny2008@gmail.com</p>
-                                <p> Flushing, NY 11354 </p>
-                            </div>
-                            <div>
-                                <p> <a href="https://github.com/yulia-2008"> GitHub</a></p>
-                                <p> <a href="https://juliana-ny2008.medium.com/" target="_blank"> Blog</a> </p>  
+                                <p > <a href="https://github.com/yulia-2008"> GitHub</a></p>
+                            </div> 
+                            <div id="flex-item"> 
+                                <p > <a href="https://juliana-ny2008.medium.com/" target="_blank"> Blog</a> </p>  
                             </div>
                         </div>
                     </div>
+
+                    <br></br> <br></br>
                     <p>Experienced in Ruby on Rails and JavaScript based programming. 
                         With a Bachelor’s degree in Law and over five years
                         of customer service and hospitality experience,
