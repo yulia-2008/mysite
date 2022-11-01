@@ -74,11 +74,12 @@ class About extends Component {
             <div id="flex-about">
                 <div id="picture-container" style={this.props.style}>  
                     <img id="picture" src={this.state.photo} alt="yuliya-pict"></img>
-                    <button  id="next"  alt="prev button" onClick={this.nextPhoto} > NEXT </button>                 
+                    {/* <button  id="next"  alt="prev button" onClick={this.nextPhoto} > NEXT </button>                 
                     <button  id="prev"  alt="prev button" onClick={this.prevPhoto} > PREV </button>
                     <button id="dot1" style={this.state.dot1Style}></button>
                     <button id="dot2" style={this.state.dot2Style}></button>
-                    <button id="dot3" style={this.state.dot3Style}></button>   
+                    <button id="dot3" style={this.state.dot3Style}></button>    
+                     - Option for multiple pictures */} 
                 </div>
                         
                 <div id="text-container">

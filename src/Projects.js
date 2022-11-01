@@ -43,6 +43,7 @@ class Projects extends Component {
                     <b id="medium">NYCABLE</b> <br></br>                   
                     {/* <p> <a href="http://www.nycable.net/"> www.nycable.net</a> </p> */} 
                     {/* Don't have DNS anymore */}
+                    <p> <a href="https://ny-cable.herokuapp.com/"> Website</a> </p>
                     <p> GitHub: <a href="https://github.com/yulia-2008/nycable_frontend">Frontend</a> &nbsp;
                         <a href="https://github.com/yulia-2008/nycable_backend">Backend</a>
                     </p>
@@ -75,7 +76,7 @@ class Projects extends Component {
                                 Components from Material UI library.</p>
                             <p>• Styling with CSS. Responsive web design makes
                                 easy navigation on different devices.</p>
-                            <p>• Hosted on Heroku, Google DNS.</p> 
+                            <p>• Hosted on Heroku.</p> 
                             <br></br>  
                         </div>
                         <div id="flex-item">    

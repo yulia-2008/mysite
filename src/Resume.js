@@ -26,7 +26,6 @@ class Resume extends Component {
                         </div>
                     </div>
 
-                    <br></br> <br></br>
                     <p>Experienced in Ruby on Rails and JavaScript based programming. 
                         With a Bachelor’s degree in Law and over five years
                         of customer service and hospitality experience,
@@ -74,7 +73,7 @@ class Resume extends Component {
                         <p>• Released on Google Play Store.</p>                 
                         <br></br>
 
-                        <b><a href="http://www.nycable.net/"> NYCABLE</a> 
+                        <b><a href="https://ny-cable.herokuapp.com/"> NYCABLE</a> 
                             {/* <a href="https://www.youtube.com/watch?v=ST63TI827O8">Demo</a> */}
                         </b>
                        
@@ -85,7 +84,7 @@ class Resume extends Component {
                         <p>• Technologies used: Nested React Routes, 
                                     Cloudinary Storage, Material UI, 
                                     Browser Local Storage, JWT, Serializer, CSS.</p>
-                        <p>• &nbsp; Hosted on Heroku, Google DNS.</p>                 
+                        <p>• &nbsp; Hosted on Heroku.</p>                 
                         <br></br>
 
                         <b> MY KITHEN  &nbsp; | &nbsp; 
@@ -133,6 +132,14 @@ class Resume extends Component {
                             <p>• Participated in daily activities including opening the store,
                                 making bank deposits, food preparation and more</p>
                         </div>
+                        <br></br>
+                        <b>Republican Sport-Training Center DOSAAF</b> 
+                        <p>Lawyer    (06/2007 - 06/2008)</p>  
+                        <div>
+                            <p>• Arranging meetings and appointments.</p>
+                            <p>• Working with tenants and lease agreements.</p>
+                        </div>
+
                     <h3 className="center">Education</h3>
                         <b>Flatiron School </b>                                                                                                        
                         <p>   New York, NY </p>
