@@ -8,7 +8,7 @@ class NavBar extends Component {
     state={
         aboutStyle: {},
         projectsStyle: {},
-        resumeStyle: {},
+        educationStyle: {},
         blogStyle: {},
         contactStyle: {},
         dropdownStyle: {},
@@ -20,7 +20,7 @@ class NavBar extends Component {
            this.setState({
                 aboutStyle: {},
                 projectsStyle: {},
-                resumeStyle: {},
+                educationStyle: {},
                 blogStyle: {},
                 contactStyle: {}
             })
@@ -77,12 +77,12 @@ class NavBar extends Component {
                                 <Link  to='/blog' style={this.state.blogStyle}
                                                   onClick={() => this.clickHandler('blogStyle')} > 
                                                   Blog </Link>                    
-                                <Link  to='/resume' style={this.state.resumeStyle}
-                                                    onClick={() => this.clickHandler('resumeStyle')}> 
-                                                    Resume </Link>                  
+                                <Link  to='/education' style={this.state.educationStyle}
+                                                       onClick={() => this.clickHandler('educationStyle')}> 
+                                                      Education</Link>                  
                                 <Link  to='/contact' style={this.state.contactStyle}
                                                      onClick={() => this.clickHandler('contactStyle')}>
-                                                          Contact </Link> 
+                                                     Contact </Link> 
                         </div>
                     </div>
                 </div> 

@@ -463,8 +463,7 @@ iframe {
 
 .dropdown-content a {
   color: black;
-  width: 40%;
-  /* margin: auto; */
+  width: 70%;
   padding: 5px 10px;
   text-decoration: none;
   display: block;

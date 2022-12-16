@@ -14,51 +14,52 @@ class About extends Component {
 
     styleCurrent = {backgroundColor: "white", border: "1px solid grey"}
 
-    nextPhoto = () => {
-        if (this.state.photo === Pic1){
-            this.setState({photo: Pic2, 
-                           dot1Style: {},
-                           dot2Style: this.styleCurrent
-            })
-        }
-        if (this.state.photo === Pic2 ){
-            this.setState({photo: Pic3,
-                            dot2Style: {},
-                            dot3Style: this.styleCurrent                         
-            })
-        }
-        if (this.state.photo === Pic3 ){
-            this.setState({photo: Pic1,
-                            dot3Style: {},
-                            dot1Style: this.styleCurrent                         
-            })
-        }        
-    }
-    prevPhoto = () => {
-        if (this.state.photo === Pic1){
-            this.setState({photo: Pic3,
-                           dot1Style: {},
-                           dot3Style: this.styleCurrent,
-                           btnStyle: {opacity: "0.6"}
-            })
-        }
+// Option for multiple pictures 
+    // nextPhoto = () => {
+    //     if (this.state.photo === Pic1){
+    //         this.setState({photo: Pic2, 
+    //                        dot1Style: {},
+    //                        dot2Style: this.styleCurrent
+    //         })
+    //     }
+    //     if (this.state.photo === Pic2 ){
+    //         this.setState({photo: Pic3,
+    //                         dot2Style: {},
+    //                         dot3Style: this.styleCurrent                         
+    //         })
+    //     }
+    //     if (this.state.photo === Pic3 ){
+    //         this.setState({photo: Pic1,
+    //                         dot3Style: {},
+    //                         dot1Style: this.styleCurrent                         
+    //         })
+    //     }        
+    // }
+    // prevPhoto = () => {
+    //     if (this.state.photo === Pic1){
+    //         this.setState({photo: Pic3,
+    //                        dot1Style: {},
+    //                        dot3Style: this.styleCurrent,
+    //                        btnStyle: {opacity: "0.6"}
+    //         })
+    //     }
 
-        if (this.state.photo === Pic3){
-            this.setState({photo: Pic2,
-                           dot3Style: {},
-                           dot2Style: this.styleCurrent,
-                           btnStyle: {opacity: "0.6"}
-            })
-        }
-        if (this.state.photo === Pic2 ){
-            this.setState({photo: Pic1,
-                          dot2Style: {},
-                          dot1Style: this.styleCurrent,
-                          btnStyle: {opacity: "0.6"}         
-            })
-        }
+    //     if (this.state.photo === Pic3){
+    //         this.setState({photo: Pic2,
+    //                        dot3Style: {},
+    //                        dot2Style: this.styleCurrent,
+    //                        btnStyle: {opacity: "0.6"}
+    //         })
+    //     }
+    //     if (this.state.photo === Pic2 ){
+    //         this.setState({photo: Pic1,
+    //                       dot2Style: {},
+    //                       dot1Style: this.styleCurrent,
+    //                       btnStyle: {opacity: "0.6"}         
+    //         })
+    //     }
         
-    }
+    // }
 
 
 
@@ -96,39 +97,34 @@ class About extends Component {
                     <b>Long term goals:</b>
                     <p>• Develop mobile application that serve millions of users.</p>
                     <p>• Hike the Appalachian Trail. </p> 
-                    <br></br> 
-                  
-                   
-                    <h4 className="center">Tech Stack</h4>
-                    <div id="flex-tech-stack">
-                        <div id="tech-flex-item">
-                            <p>HTML</p> <hr/>
-                            <p>CSS</p><hr/>
-                            <p>Ruby</p><hr/>
-                            <p>API</p><hr/>
-                            <p>Ruby-on-Rails</p><hr/>
-                            <p>Mobile development</p>
-                        </div>
-                        <div id="tech-flex-item">
-                            <p>JavaScript</p><hr/>
-                            <p>React.js</p><hr/>
-                            <p>Material UI</p><hr/>
-                            <p>React Router</p><hr/>                     
-                            <p>React Native</p><hr/>
-                            <p>S3</p>
-                          
-                        </div>
-                        <div id="tech-flex-item">
-                            
-                            <p>PostgreSQL</p><hr/>
-                            <p>SQLite</p><hr/>
-                            <p>Heroku</p><hr/>
-                            <p>GitHub</p><hr/>
-                            <p>Cloudinary Storage</p>
-                        </div>
-                    </div>
+                    <br></br>         
                 </div>
+               
             </div>    
+            <h3 className="center">Technical Skills</h3>
+            <div id="flex-about">
+                <div id="tech-flex-item">
+                    <p>HTML</p> <hr/>
+                    <p>CSS</p><hr/>
+                    <p>Ruby</p><hr/>
+                    <p>API</p><hr/>
+                    <p>Ruby-on-Rails</p>
+                </div>
+                <div id="tech-flex-item">
+                    <p>JavaScript</p><hr/>
+                    <p>React.js</p><hr/>
+                    <p>Material UI</p><hr/>
+                    <p>React Router</p><hr/>                     
+                    <p>React Native</p>           
+                </div>
+                <div id="tech-flex-item">                               
+                    <p>PostgreSQL</p><hr/>
+                    <p>SQLite</p><hr/>
+                    <p>Heroku</p><hr/>
+                    <p>GitHub</p><hr/>
+                    <p>Cloudinary Storage</p>
+                </div>
+            </div>              
         </div>
         );
     }

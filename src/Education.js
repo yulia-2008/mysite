@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import Certificate from './Pictures/Certificate.jpg';
 
-class Resume extends Component {
+class Education extends Component {
     render() {
         return (
             <div id="main-container">           
@@ -9,31 +9,23 @@ class Resume extends Component {
                     <div className="center"> 
                         <br></br> <br></br>
                         <h3 id="no-margin">Yuliya Yurkevich</h3>
-                        <p className="center">Fullstack Software Engineer</p>
-                        <p className="center"> +1 347-357-5454 </p> 
                         <p className="center"> juliana.ny2008@gmail.com</p>
-                        <p className="center"> Flushing, NY 11354 </p> 
-                        
-                        
+                        <p className="center"> Flushing, NY 11354 </p>        
 
-                         <div id="flex-resume">
+                        {/* <div id="flex-resume">
                             <div id="flex-item">
                                 <p > <a href="https://github.com/yulia-2008"> GitHub</a></p>
                             </div> 
                             <div id="flex-item"> 
                                 <p > <a href="https://juliana-ny2008.medium.com/" target="_blank"> Blog</a> </p>  
                             </div>
-                        </div>
+                        </div> */}
                     </div>
+                    <br></br>
 
-                    <p>Experienced in Ruby on Rails and JavaScript based programming. 
+                    {/* <p>Experienced in Ruby on Rails and JavaScript based programming. 
                         With a Bachelor’s degree in Law and over five years
-                        of customer service and hospitality experience,
-                        I bring strong skills in team work,
-                        collaboration and working independently.
-                        Results-oriented with a positive attitude. 
-                        Looking forward to applying my software engineering skills
-                        to help your business grow. </p>
+                        of customer service and hospitality experience. </p> */}
                     <h3 className="center">Technical Skills</h3>
                     <div id="flex-tech-stack">
                         <div id="tech-flex-item">
@@ -61,10 +53,9 @@ class Resume extends Component {
                         </div>
                     </div>
   
-                    <h3 className="center">Technical Projects</h3>
+                    {/* <h3 className="center">Technical Projects</h3>
  
                         <b><a href="https://play.google.com/store/apps/details?id=com.yulia_123.Memo"> MEMO</a> 
-                            {/* <a href="https://www.youtube.com/watch?v=KW6Wth6rBF0">Demo</a> */}
                         </b>
 
                         <br></br> <br></br>
@@ -73,8 +64,7 @@ class Resume extends Component {
                         <p>• Released on Google Play Store.</p>                 
                         <br></br>
 
-                        <b><a href="https://ny-cable.herokuapp.com/"> NYCABLE</a> 
-                            {/* <a href="https://www.youtube.com/watch?v=ST63TI827O8">Demo</a> */}
+                        <b><a href="https://ny-cable.herokuapp.com/"> NYCABLE</a>                             
                         </b>
                        
                         <br></br> <br></br>
@@ -87,8 +77,7 @@ class Resume extends Component {
                         <p>• &nbsp; Hosted on Heroku.</p>                 
                         <br></br>
 
-                        <b> MY KITHEN  &nbsp; | &nbsp; 
-                            {/* <a href="https://www.youtube.com/watch?v=1pHGREsQpdU">Demo</a> */}
+                        <b> MY KITHEN  &nbsp; | &nbsp;                            
                             <a href="https://github.com/yulia-2008/my-kitchen-frontend">GitHub</a> 
                         </b> 
                         <br></br> <br></br>
@@ -99,8 +88,7 @@ class Resume extends Component {
                         <p>• Ruby on Rails, PostgresSQL for Backend </p>   
                         <br></br>
 
-                        <b>PONDER  &nbsp; | &nbsp; 
-                            {/* <a href="https://www.youtube.com/watch?v=1pHGREsQpdU">Demo</a> */}
+                        <b>PONDER  &nbsp; | &nbsp;                            
                             <a href="https://github.com/yulia-2008/ponder_frontend">GitHub</a>
                         </b>
                         <br></br> <br></br>
@@ -138,7 +126,7 @@ class Resume extends Component {
                         <div>
                             <p>• Arranging meetings and appointments.</p>
                             <p>• Working with tenants and lease agreements.</p>
-                        </div>
+                        </div> */}
 
                     <h3 className="center">Education</h3>
                         <b>Flatiron School </b>                                                                                                        
@@ -161,4 +149,4 @@ class Resume extends Component {
     }
 }
 
-export default Resume;
+export default Education;
